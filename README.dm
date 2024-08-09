@@ -1,0 +1,16 @@
+/project-root
+  /assets
+    /css
+      styles.css
+    /scss
+      styles.scss
+    /images
+      logo.png
+  /includes
+    header.php
+    footer.php
+  index.php
+  about.php
+  services.php
+  news.php
+  contact.php
