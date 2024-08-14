@@ -6,16 +6,20 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="img/initial-image.png" class="d-block w-100" alt="...">
+            <img src="img/banner1.webp" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="img/initial-image.png" class="d-block w-100" alt="...">
+            <img src="img/banner2.webp" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="img/initial-image.png" class="d-block w-100" alt="...">
+            <img src="img/banner3.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/banner4.webp" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -32,7 +36,7 @@
     <div class="servicios__title">
         <h5>SERVICIOS</h5>
         <hr>
-        <img src="" alt="">
+        <img src="img/detalle.png" alt="">
     </div>
     <div class="servicios__subtitle">
         <h2>Huimos de los 
@@ -74,7 +78,7 @@
         <div class="plan__title">
             <h5>EL PLAN</h5>
             <hr>
-            <img src="" alt="">
+            <img src="img/detalle.png" alt="">
         </div>
         <div class="plan__subtitle">
             <h2>

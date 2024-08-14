@@ -12006,7 +12006,7 @@ header .logo {
 header .logo img {
   height: 50px;
 }
-header nav ul {
+header #nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -12015,16 +12015,16 @@ header nav ul {
   padding: 0;
   list-style: none;
 }
-header nav ul li {
+header #nav ul li {
   margin-left: 20px;
-  font-size: small;
+  font-size: 1rem;
   margin-right: 20px;
 }
-header nav ul li .nav-link {
+header #nav ul li .nav-link {
   display: flex;
   align-items: center;
 }
-header nav ul li .nav-link .nav__logo {
+header #nav ul li .nav-link .nav__logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12032,25 +12032,32 @@ header nav ul li .nav-link .nav__logo {
   align-items: center;
   margin-left: 10px;
 }
-header nav ul li .nav-link .nav__logo .nav__logo__title {
+header #nav ul li .nav-link .nav__logo img {
+  width: 150px;
+}
+header #nav ul li .nav-link .nav__logo .nav__logo__title {
   height: 24px;
   font-family: poppins-bold;
   font-size: x-large;
   margin: 0px;
   font-weight: 700;
 }
-header nav ul li .nav-link .nav__logo .nav__logo__subtitle {
+header #nav ul li .nav-link .nav__logo .nav__logo__subtitle {
   font-family: poppins;
   font-size: small;
   margin: 0px;
 }
-header nav ul li a {
-  color: #fff;
+header #nav ul li a {
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s;
 }
-header nav ul li a:hover {
+header #nav ul li a:hover {
   color: #555;
+}
+
+#nav__small {
+  display: none;
 }
 
 #servicios {
@@ -12059,36 +12066,40 @@ header nav ul li a:hover {
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
-  margin: 5% 10%;
+  margin: 3% 2%;
 }
 #servicios .servicios__title {
-  width: 20%;
+  width: 25%;
 }
 #servicios .servicios__title h5, #servicios .servicios__title .h5 {
-  font-size: xx-small;
+  font-size: 2rem;
   font-weight: 800;
   margin: 0px;
+  padding: 0px;
 }
 #servicios .servicios__title hr {
   margin: 3px 0px;
-  width: 150px;
-  margin-right: 100px;
   opacity: inherit;
   box-shadow: none;
   color: black;
 }
+#servicios .servicios__title img {
+  width: 15rem;
+  margin-top: 2rem;
+}
 #servicios .servicios__subtitle {
-  width: 25%;
+  width: 35%;
 }
 #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
   width: 100%;
-  font-size: xx-large;
+  font-size: 55px;
+  font-weight: 300;
 }
 #servicios .servicios__example {
-  width: 25%;
+  width: 30%;
 }
 #servicios .servicios__example p {
-  font-size: small;
+  font-size: 1rem;
 }
 #servicios .servicios__example .servicios__btn {
   background-color: #ef3757;
@@ -12114,8 +12125,8 @@ header nav ul li a:hover {
 }
 #servicios .servicios__points {
   color: #f23791;
-  font-size: smaller;
-  /* font-weight: 200; */
+  font-size: 1rem;
+  font-weight: 100;
 }
 #servicios .servicios__points p {
   color: #ef3757;
@@ -12142,43 +12153,50 @@ header nav ul li a:hover {
 #plan div {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
-  margin: 5% 10%;
+  margin: 3% 2%;
+  justify-content: space-evenly;
 }
 #plan div .plan__title {
   flex-direction: column;
-  width: 20%;
+  width: 25%;
   margin: 0px;
 }
 #plan div .plan__title h5, #plan div .plan__title .h5 {
-  font-size: xx-small;
+  font-size: 2rem;
   font-weight: 800;
   margin: 0px;
+  padding: 0px;
 }
 #plan div .plan__title hr {
   margin: 3px 0px;
-  width: 150px;
-  margin-right: 100px;
   opacity: inherit;
   box-shadow: none;
   color: black;
+  width: 100%;
+}
+#plan div .plan__title img {
+  width: 15rem;
+  margin-top: 2rem;
 }
 #plan div .plan__subtitle {
   margin: 0px;
-  width: 25%;
+  width: 37%;
 }
 #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
   width: 100%;
+  font-size: 55px;
+  font-weight: 300;
 }
 #plan div .plan__example {
   margin: 0px;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
+  align-items: center;
 }
 #plan div .plan__example p {
-  font-size: small;
+  font-size: 1rem;
 }
 #plan .plan__points {
   display: flex;
@@ -12194,7 +12212,7 @@ header nav ul li a:hover {
   margin: 0%;
   flex-direction: row;
   align-items: center;
-  width: 66%;
+  width: 74%;
   justify-content: center;
 }
 #plan .plan__points div .plan__points__box {
@@ -12216,7 +12234,7 @@ header nav ul li a:hover {
   width: 200px;
 }
 #plan .plan__points div .plan__points__text {
-  padding: 4%;
+  padding: 3%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -12228,11 +12246,11 @@ header nav ul li a:hover {
   padding-bottom: 5%;
   width: 100%;
   margin: 0px;
-  font-size: 120%;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 #plan .plan__points div .plan__points__text p {
-  font-size: 80%;
+  font-size: 0.9rem;
   width: 100%;
   margin: 0px;
 }
@@ -12240,26 +12258,40 @@ header nav ul li a:hover {
 #contacto {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
-  margin: 5% 10%;
+  margin: 3% 2%;
+  justify-content: space-evenly;
 }
 #contacto .contacto__title {
-  width: 20%;
+  flex-direction: column;
+  width: 25%;
   margin: 0px;
+}
+#contacto .contacto__title h5, #contacto .contacto__title .h5 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+#contacto .contacto__title hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: black;
+  width: 100%;
 }
 #contacto .contacto__subtitle {
   margin: 0px;
-  width: 25%;
+  width: 37%;
 }
 #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
-  margin-bottom: 20%;
+  margin-bottom: 10%;
+  font-size: 55px;
 }
 #contacto .contacto__subtitle div {
   display: flex;
   align-items: center;
   padding: 0px 0px 15px 0px;
+  font-size: 1.2rem;
 }
 #contacto .contacto__subtitle div p {
   margin: 0px 0px 0px 15px;
@@ -12271,7 +12303,8 @@ header nav ul li a:hover {
 #contacto .contacto__form form label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 #contacto .contacto__form form input {
   width: 100%;
@@ -12282,6 +12315,7 @@ header nav ul li a:hover {
   border-top: none;
   border-right: none;
   border-left: none;
+  font-size: 1.2rem;
 }
 #contacto .contacto__form form textarea {
   width: 100%;
@@ -12291,6 +12325,7 @@ header nav ul li a:hover {
   box-sizing: border-box;
   resize: none;
   height: 100px;
+  font-size: 1.2rem;
 }
 #contacto .contacto__form form button {
   color: #fff;
@@ -12302,6 +12337,7 @@ header nav ul li a:hover {
   width: 50%;
   position: relative;
   left: 50%;
+  font-size: 1.2rem;
 }
 #contacto .contacto__form form button :hover {
   background-color: #333;
@@ -12344,8 +12380,8 @@ footer {
 footer .footer__marca {
   display: flex;
   flex-direction: row;
-  width: 25%;
-  justify-content: space-between;
+  width: 33%;
+  justify-content: space-around;
 }
 footer .footer__marca div {
   display: flex;
@@ -12359,20 +12395,13 @@ footer .footer__marca div .footer__logo {
   justify-content: center;
   flex-wrap: nowrap;
   align-items: flex-start;
-  margin-left: 20px;
 }
-footer .footer__marca div .footer__logo .footer__logo__title {
-  font-size: x-large;
-  margin: 0px;
-  font-weight: 700;
-}
-footer .footer__marca div .footer__logo .footer__logo__subtitle {
-  font-size: small;
-  margin: 0px;
+footer .footer__marca div .footer__logo img {
+  width: 150px;
 }
 footer .footer__marca div .footer__logo .footer__logo__info {
-  font-size: xx-small;
-  margin-top: 20%;
+  font-size: 0.9rem;
+  margin-top: 10%;
   flex-direction: column;
   font-family: poppins-light;
 }
@@ -12380,13 +12409,12 @@ footer .footer__marca p {
   font-family: poppins-light;
   color: #fff;
   margin: 0px;
-  font-size: larger;
 }
 footer .footer__links {
   display: flex;
   justify-content: space-around;
-  width: 550px;
-  font-size: smaller;
+  width: 50%;
+  font-size: 1rem;
 }
 footer .footer__links .footer__links__column {
   list-style: none;
@@ -12411,7 +12439,160 @@ footer .footer__links .footer__links__column .footer__links__column__social {
 }
 
 /*MEDIA QUERIES*/
+@media screen and (max-width: 1270px) and (min-width: 1180px) {
+  #plan .plan__points div {
+    width: 80%;
+  }
+  /*   #contacto{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .contacto__title{
+        flex-direction: column;
+        width: 45%;
+        margin: 0px;
+      }
+      .contacto__subtitle{
+        margin: 0px;
+        width: 45%;
+      }
+      .contacto__form{
+        width: 50%;
+        margin-top: 4rem;
+      }
+    } */
+}
+@media screen and (max-width: 1180px) and (min-width: 900px) {
+  #servicios {
+    margin: 3% 6%;
+    flex-wrap: wrap;
+  }
+  #servicios .servicios__title {
+    width: 45%;
+  }
+  #servicios .servicios__subtitle {
+    width: 45%;
+  }
+  #servicios .servicios__example {
+    width: 50%;
+    margin-top: 4rem;
+  }
+  #plan div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #plan div .plan__title {
+    width: 45%;
+  }
+  #plan div .plan__subtitle {
+    width: 45%;
+  }
+  #plan div .plan__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
+  #plan .plan__points {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+  }
+  #plan .plan__points div {
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    width: 66%;
+    justify-content: center;
+  }
+  #plan .plan__points div .plan__points__box {
+    margin: 1%;
+    padding: 0%;
+    height: 100%;
+  }
+  #plan .plan__points div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    height: 200px;
+  }
+  #plan .plan__points div .plan__points__img {
+    width: 200px;
+  }
+  #plan .plan__points div .plan__points__text {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0%;
+  }
+  #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
+    padding-bottom: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  #plan .plan__points div .plan__points__text p {
+    font-size: 80%;
+    width: 100%;
+    margin: 0px;
+  }
+  #contacto {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    flex-direction: column;
+    width: 45%;
+    margin: 0px;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 45%;
+  }
+  #contacto .contacto__form {
+    width: 50%;
+    margin-top: 4rem;
+  }
+}
 @media screen and (max-width: 800px) and (min-width: 600px) {
+  #nav {
+    display: none;
+  }
+  #nav__small {
+    display: block;
+    background-color: #fff;
+  }
+  #nav__small .navbar-brand img {
+    width: 150px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-header img, #nav__small .container-sm .offcanvas-end .offcanvas-header img, #nav__small .container-md .offcanvas-end .offcanvas-header img, #nav__small .container-lg .offcanvas-end .offcanvas-header img, #nav__small .container-xl .offcanvas-end .offcanvas-header img, #nav__small .container-xxl .offcanvas-end .offcanvas-header img {
+    width: 150px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul, #nav__small .container-sm .offcanvas-end .offcanvas-body ul, #nav__small .container-md .offcanvas-end .offcanvas-body ul, #nav__small .container-lg .offcanvas-end .offcanvas-body ul, #nav__small .container-xl .offcanvas-end .offcanvas-body ul, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul li, #nav__small .container-sm .offcanvas-end .offcanvas-body ul li, #nav__small .container-md .offcanvas-end .offcanvas-body ul li, #nav__small .container-lg .offcanvas-end .offcanvas-body ul li, #nav__small .container-xl .offcanvas-end .offcanvas-body ul li, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul li {
+    font-size: small;
+    margin-bottom: 25px;
+  }
   #servicios {
     margin: 5% 2%;
   }
@@ -12457,6 +12638,34 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
+  #nav {
+    display: none;
+  }
+  #nav__small {
+    display: block;
+    background-color: #fff;
+  }
+  #nav__small .navbar-brand img {
+    width: 120px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-header img, #nav__small .container-sm .offcanvas-end .offcanvas-header img, #nav__small .container-md .offcanvas-end .offcanvas-header img, #nav__small .container-lg .offcanvas-end .offcanvas-header img, #nav__small .container-xl .offcanvas-end .offcanvas-header img, #nav__small .container-xxl .offcanvas-end .offcanvas-header img {
+    width: 120px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul, #nav__small .container-sm .offcanvas-end .offcanvas-body ul, #nav__small .container-md .offcanvas-end .offcanvas-body ul, #nav__small .container-lg .offcanvas-end .offcanvas-body ul, #nav__small .container-xl .offcanvas-end .offcanvas-body ul, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul li, #nav__small .container-sm .offcanvas-end .offcanvas-body ul li, #nav__small .container-md .offcanvas-end .offcanvas-body ul li, #nav__small .container-lg .offcanvas-end .offcanvas-body ul li, #nav__small .container-xl .offcanvas-end .offcanvas-body ul li, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul li {
+    font-size: small;
+    margin-bottom: 25px;
+  }
   #plan .plan__points {
     align-content: center;
   }

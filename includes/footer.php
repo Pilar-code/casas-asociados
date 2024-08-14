@@ -1,11 +1,9 @@
 <footer>
     <div class="footer__marca">
         <div>
-            <img src="#" alt=" ">
             <div class="footer__logo">
                 <a href="index.php">
-                    <p class="footer__logo__title">Casas</p>
-                    <p class="footer__logo__subtitle">& Asociados</p>
+                    <img src="./img/logo-negativo-casas-y-asociados.png" alt=" ">
                 </a>
                 <div class="footer__logo__info">
                     <p>Paseo de la Constitución, 24</p>
