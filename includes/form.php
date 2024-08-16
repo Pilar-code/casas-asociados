@@ -2,7 +2,6 @@
     <div class="contacto__title">
         <h5>CONTACTO</h5>
         <hr>
-        <img src="" alt="">
     </div>
     <div class="contacto__subtitle">
         <h2>Solicita más 

@@ -1,36 +1,119 @@
 <?php include('includes/header.php'); ?>
 
 <section id="intro">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    <div id="carousel-large">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.webp" class="d-block w-100" alt="...">
+                    <p>
+                        ¿Noches
+                        <br>en vela
+                        <br>pensando
+                        <br>en los
+                        <br>problemas de
+                        <br>tu empresa?
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2.webp" class="d-block w-100" alt="...">
+                    <p>
+                        Tu empresa
+                        <br>siempre en
+                        <br>marcha.
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.webp" class="d-block w-100" alt="...">
+                    <p>Financiación,
+                        <br>gestión de
+                        <br>activos,
+                        <br>control de
+                        <br>gastos...
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner4.webp" class="d-block w-100" alt="...">
+                    <p>
+                        En la
+                        <br>empresa,
+                        <br>prevenir es
+                        <br>curar.
+                    </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="img/banner1.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="img/banner2.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="img/banner3.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-            <img src="img/banner4.webp" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+<!--  CARRUSEL ALTERNATIVO PARA PANTALLAS MENORES -->
+    <div id="carousel-small">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1-sm.webp" class="d-block w-100" alt="...">
+                    <p>¿Noches
+                        <br>en vela
+                        <br>pensando
+                        <br>en los
+                        <br>problemas de
+                        <br>tu empresa?
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2-sm.webp" class="d-block w-100" alt="...">
+                    <p>Tu empresa
+                        <br>siempre en
+                        <br>marcha.
+                    </p>
+                </div>
+                <div class="carousel-item">
+                <img src="img/banner3-sm.webp" class="d-block w-100" alt="...">
+                    <p>Financiación,
+                        <br>gestión de
+                        <br>activos,
+                        <br>control de
+                        <br>gastos...
+                    </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner4-sm.webp" class="d-block w-100" alt="...">
+                    <p>En la
+                        <br>empresa,
+                        <br>prevenir es
+                        <br>curar.
+                    </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+<!-- FIN DE CARRUSEL ALTERNATIVO --> 
 </section>
 <section id="servicios">
     <div class="servicios__title">

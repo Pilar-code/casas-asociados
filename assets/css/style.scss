@@ -114,6 +114,29 @@ header {
   display: none;
 }
 
+#carousel-large{
+  display: block;
+  #carouselExampleIndicators{
+    .carousel-inner{
+      .carousel-item{
+        margin: none;
+        p{
+          font-size: 1.3rem;
+          position: absolute;
+          bottom: 44%;
+          left: 25%;
+          color: white;
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+#carousel-small{
+  display:none;
+}
+
 #servicios{
   display: flex;
   flex-wrap: nowrap;
@@ -200,7 +223,7 @@ header {
   }
 }
 #plan{
-  background-color: #f2fad3;
+  background-color: #f1efe8;
   padding: 3% 0%;
   div{
     display: flex;
@@ -263,7 +286,7 @@ header {
       margin: 0%;
       flex-direction: row;
       align-items: center;
-      width: 74%;
+      width: 80%;
       justify-content: center;
         .plan__points__box{
           margin: 1%;
@@ -502,27 +525,10 @@ footer{
         width: 80%;
       }
     }
-  }
-/*   #contacto{
-    flex-wrap: wrap;
-    margin: 3% 6%;
-    .contacto__title{
-      flex-direction: column;
-      width: 45%;
-      margin: 0px;
-    }
-    .contacto__subtitle{
-      margin: 0px;
-      width: 45%;
-    }
-    .contacto__form{
-      width: 50%;
-      margin-top: 4rem;
-    }
-  } */
-  
+  } 
 }
-@media screen and (max-width: 1180px) and (min-width: 900px) {
+
+@media screen and (max-width: 1180px) and (min-width: 1030px) {
 
   #servicios{
     margin: 3% 6%;
@@ -631,7 +637,205 @@ footer{
   }
 }
 
-@media screen and (max-width: 800px) and (min-width: 600px) {
+
+@media screen and (max-width: 1030px) and (min-width: 850px) {
+  
+  #carouselExampleIndicators{
+    .carousel-inner{ 
+      .carousel-item{
+        p{
+          font-size: 1.2rem;
+          bottom: 42%;
+          left: 25%;
+        }
+      }
+    }
+  }
+
+  #servicios{
+    margin: 3% 6%;
+    flex-wrap: wrap;
+    .servicios__title{
+        width: 45%;
+      h5{
+        font-size: 1.4rem;
+      }
+      img{
+        width: 13rem;
+      }
+    }
+    .servicios__subtitle{
+          width: 45%;
+      h2{
+        font-size: 45px;
+      }
+    }
+    .servicios__example{
+      width: 50%;
+      margin-top: 4rem;
+      p{
+        font-size: 0.9rem;
+      }
+      .servicios__points{
+        font-size: 0.9rem;
+      }
+      .servicios__btn{
+        a{
+          font-size: 0.9rem;
+        }
+      }
+      }
+  }
+    
+  #plan{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .plan__title{
+        width: 45%;
+        h5{
+          font-size: 1.4rem;
+        }
+        img{
+          width: 13rem;
+        }
+      }
+      .plan__subtitle{
+        width: 45%;
+        h2{
+          font-size: 45px;
+        }
+      }
+      .plan__example{
+        margin: 4rem 0rem 0rem 0rem;
+        width: 50%;
+        p{
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .plan__points{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+      width: 100%;
+      div{
+        display: flex;
+        margin: 0%;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        justify-content: center;
+          .plan__points__box{
+            margin: 1%;
+            padding: 0%;
+            height: 100%;
+          }
+        div{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          background-color: white;
+          margin: 0px;
+          height: 200px;
+        }
+        .plan__points__img{
+          width: 200px;
+        }
+        .plan__points__text{
+          padding: 4%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin: 0%;
+          h3{
+            padding-bottom: 5%;
+            width: 100%;
+            margin: 0px;
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+          p{
+            font-size: 0.77rem;
+            width: 100%;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  
+  #contacto{
+    flex-wrap: wrap;
+    margin: 3% 6%;
+    .contacto__title{
+      flex-direction: column;
+      width: 45%;
+      margin: 0px;
+      h5{
+        font-size: 1.4rem;
+      }
+    }
+    .contacto__subtitle{
+      margin: 0px;
+      width: 45%;
+      h2{
+        font-size: 45px;
+      }
+      div{
+        font-size: 1rem;
+      }
+    }
+    .contacto__form{
+      width: 50%;
+      margin-top: 4rem;
+      form{
+        label{
+          font-size: 1rem;
+        }
+        input{
+          font-size: 1rem;
+        }
+        textarea{
+          font-size: 1rem;
+        }
+        button{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+    
+  footer{
+    .footer__marca{
+      div{
+        .footer__logo{
+          .footer__logo__info{
+            font-size: 0.8rem;
+            p{
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+      p{
+        font-size: 0.8rem;
+      }
+    }
+    .footer__links{
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 600px) {
   #nav {
     display: none;
   }
@@ -671,35 +875,150 @@ footer{
         }
     }
   }
-  #servicios{
-    margin: 5% 2%;
-    .servicios__title{
-        width: 25%;
-    }
-    .servicios__subtitle{
-          width: 25%;
-      h2{
-        font-size: x-large;
-      }
-    }
-    .servicios__example{
-      width: 30%;
-      p{
-        font-size: small;
+
+  
+#carousel-small{
+  display: block;
+  #carouselExampleIndicators{
+    .carousel-inner{
+      .carousel-item{
+        margin: 0%;
+        p{
+          font-size: 1.3rem;
+          position: absolute;
+          bottom: 65%;
+          left: 10%;
+          color: white;
+          margin: 0px;
+        }
       }
     }
   }
-  #plan{
-    .plan__points{
-      align-content: center;
-      div{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        .plan__points__box{
-          margin: 3%;
-          padding: 0%;
-          width: 68%;
+}
+
+#carousel-large{
+  display:none;
+}
+
+  #carouselExampleIndicators{
+    .carousel-inner{ 
+      .carousel-item{
+        p{
+          font-size: 1.2rem;
+          bottom: 42%;
+          left: 25%;
         }
+      }
+    }
+  }
+
+  #servicios{
+    display: flex;
+    margin: 3% 6%;
+    flex-wrap: wrap;
+    .servicios__title{
+      width: 100%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      h5{
+        font-size: 1.4rem;
+      }
+      hr{
+        margin: 3px 0%;
+        opacity: 100%;
+        box-shadow: none;
+        color: black;
+        width: 60%;
+      }
+      img{
+        width: 13rem;
+      }
+    }
+    .servicios__subtitle{
+      width: 100%;
+      h2{
+        font-size: 45px;
+        margin-top: 3rem;
+      }
+    }
+    .servicios__example{
+      width: 80%;
+      margin-top: 4rem;
+      p{
+        font-size: 0.9rem;
+      }
+      .servicios__points{
+        font-size: 0.9rem;
+      }
+      .servicios__btn{
+        a{
+          font-size: 0.9rem;
+        }
+      }
+      }
+  }
+    
+  #plan{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .plan__title{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 1.4rem;
+        }
+        hr{
+          margin: 3px 0%;
+          opacity: 100%;
+          box-shadow: none;
+          color: black;
+          width: 60%;
+        }
+        img{
+          width: 13rem;
+        }
+      }
+      .plan__subtitle{
+        width: 100%;
+        h2{
+          font-size: 45px;
+          margin-top: 3rem;
+        }
+      }
+      .plan__example{
+        margin: 4rem 0rem 0rem 0rem;
+        width: 80%;
+        p{
+          font-size: 0.9rem;
+        }
+      }
+    }
+    .plan__points{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+      width: 100%;
+      div{
+        display: flex;
+        margin: 0%;
+        flex-direction: row;
+        align-items: center;
+        width: 83%;
+        justify-content: center;
+          .plan__points__box{
+            margin: 1%;
+            padding: 0%;
+            height: 100%;
+          }
         div{
           display: flex;
           flex-direction: row;
@@ -713,12 +1032,420 @@ footer{
         .plan__points__img{
           width: 200px;
         }
+        .plan__points__text{
+          padding: 4%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin: 0%;
+          h3{
+            padding-bottom: 5%;
+            width: 100%;
+            margin: 0px;
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+          p{
+            font-size: 0.77rem;
+            width: 100%;
+            margin: 0px;
+          }
+        }
       }
+    }
+  }
+  
+  #contacto{
+    flex-wrap: wrap;
+    margin: 3% 6%;
+    .contacto__title{
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      h5{
+        font-size: 1.4rem;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: black;
+        width: 60%;
+      }
+    }
+    .contacto__subtitle{
+      margin: 0px;
+      width: 100%;
+      margin-top: 4rem;
+      h2{
+        font-size: 45px;
+        margin-bottom: 2.9rem;
+      }
+      div{
+        font-size: 1rem;
+      }
+    }
+    .contacto__form{
+      width: 80%;
+      margin-top: 4rem;
+      form{
+        label{
+          font-size: 1rem;
+        }
+        input{
+          font-size: 1rem;
+        }
+        textarea{
+          font-size: 1rem;
+        }
+        button{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+    
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .footer__marca{
+      width: 70%;
+      div{
+        .footer__logo{
+          .footer__logo__info{
+            font-size: 0.8rem;
+            p{
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+      p{
+        font-size: 0.8rem;
+      }
+    }
+    .footer__links{
+      font-size: 0.8rem;
+      margin-top: 4rem;
+      width: 70%;
     }
   }
 }
 
 @media screen and (max-width: 600px) and (min-width: 400px) {
+    #nav {
+      display: none;
+    }
+  
+    #nav__small {
+      display: block;
+      background-color: $secondary-color;
+      .navbar-brand{
+        img{
+          width: 150px;
+        }
+      }
+      .container-fluid{
+          .offcanvas-end{
+            .offcanvas-header{
+              img{
+                width: 150px;
+              }
+            }
+            .offcanvas-body{
+              ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: space-around;
+                li{
+                  font-size: small;
+                  margin-bottom: 25px;
+                }
+              }
+            }
+          }
+      }
+    }
+  
+    
+  #carousel-small{
+    display: block;
+    #carouselExampleIndicators{
+      .carousel-inner{
+        .carousel-item{
+          margin: 0%;
+          p{
+            font-size: 1.3rem;
+            position: absolute;
+            bottom: 65%;
+            left: 10%;
+            color: white;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  
+  #carousel-large{
+    display:none;
+  }
+  
+    #carouselExampleIndicators{
+      .carousel-inner{ 
+        .carousel-item{
+          p{
+            font-size: 1.2rem;
+            bottom: 42%;
+            left: 25%;
+          }
+        }
+      }
+    }
+  
+    #servicios{
+      display: flex;
+      margin: 3% 6%;
+      flex-wrap: wrap;
+      .servicios__title{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 1rem;
+        }
+        hr{
+          margin: 3px 0%;
+          opacity: 100%;
+          box-shadow: none;
+          color: black;
+          width: 60%;
+        }
+        img{
+          width: 10rem;
+        }
+      }
+      .servicios__subtitle{
+        width: 100%;
+        h2{
+          font-size: 35px;
+          margin-top: 3rem;
+        }
+      }
+      .servicios__example{
+        width: 80%;
+        margin-top: 4rem;
+        p{
+          font-size: 0.8rem;
+        }
+        .servicios__points{
+          font-size: 0.8rem;
+        }
+        .servicios__btn{
+          a{
+            font-size: 0.8rem;
+          }
+        }
+        }
+    }
+      
+    #plan{
+      div{
+        flex-wrap: wrap;
+        margin: 3% 6%;
+        .plan__title{
+          width: 100%;
+          display: flex;
+          height: 100%;
+          flex-direction: column;
+          align-items: flex-end;
+          h5{
+            font-size: 1rem;
+          }
+          hr{
+            margin: 3px 0%;
+            opacity: 100%;
+            box-shadow: none;
+            color: black;
+            width: 60%;
+          }
+          img{
+            width: 10rem;
+          }
+        }
+        .plan__subtitle{
+          width: 100%;
+          h2{
+            font-size: 35px;
+            margin-top: 3rem;
+          }
+        }
+        .plan__example{
+          margin: 4rem 0rem 0rem 0rem;
+          width: 90%;
+          p{
+            font-size: 0.8rem;
+          }
+        }
+      }
+      .plan__points{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        width: 100%;
+        div{
+          display: flex;
+          margin: 0%;
+          flex-direction: row;
+          align-items: center;
+          width: 98%;
+          justify-content: center;
+            .plan__points__box{
+              margin: 1%;
+              padding: 0%;
+              height: 100%;
+            }
+          div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: white;
+            margin: 0px;
+            height: 190px;
+          }
+          .plan__points__img{
+            width: 190px;
+          }
+          .plan__points__text{
+            padding: 4%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin: 0%;
+            h3{
+              padding-bottom: 5%;
+              width: 100%;
+              margin: 0px;
+              font-size: 1rem;
+              font-weight: 600;
+            }
+            p{
+              font-size: 0.7rem;
+              width: 100%;
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+    
+    #contacto{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .contacto__title{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 1rem;
+        }
+        hr{
+          margin: 3px 0px;
+          opacity: inherit;
+          box-shadow: none;
+          color: black;
+          width: 60%;
+        }
+      }
+      .contacto__subtitle{
+        margin: 0px;
+        width: 100%;
+        margin-top: 4rem;
+        h2{
+          font-size: 35px;
+          margin-bottom: 2rem;
+        }
+        div{
+          font-size: 1rem;
+        }
+      }
+      .contacto__form{
+        width: 90%;
+        margin-top: 4rem;
+        form{
+          label{
+            font-size: 1rem;
+          }
+          input{
+            font-size: 1rem;
+          }
+          textarea{
+            font-size: 1rem;
+          }
+          button{
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+      
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      .footer__marca{
+        width: 70%;
+        div{
+          .footer__logo{
+            .footer__logo__info{
+              font-size: 0.8rem;
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+        p{
+          font-size: 0.8rem;
+        }
+      }
+      .footer__links{
+        font-size: 0.8rem;
+        margin-top: 4rem;
+        width: 70%;
+      }
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
   #nav {
     display: none;
   }
@@ -758,17 +1485,158 @@ footer{
         }
     }
   }
-  #plan{
-    .plan__points{
-      align-content: center;
-      div{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        .plan__points__box{
-          margin: 1% 2%;
-          padding: 0% 0% 1% 0%;
-          width: 95%;
+
+  
+#carousel-small{
+  display: block;
+  #carouselExampleIndicators{
+    .carousel-inner{
+      .carousel-item{
+        margin: 0%;
+        p{
+          font-size: 1.3rem;
+          position: absolute;
+          bottom: 50%;
+          left: 10%;
+          color: white;
+          margin: 0px;
         }
+      }
+    }
+  }
+}
+
+#carousel-large{
+  display:none;
+}
+
+  #carouselExampleIndicators{
+    .carousel-inner{ 
+      .carousel-item{
+        p{
+          font-size: 0.8rem;
+          position: absolute;
+          bottom: 60%;
+          left: 7%;
+          color: white;
+          margin: 0px;
+        }
+      }
+    }
+  }
+
+  #servicios{
+    display: flex;
+    margin: 3% 6%;
+    flex-wrap: wrap;
+    .servicios__title{
+      width: 100%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      h5{
+        font-size: 0.8rem;
+      }
+      hr{
+        margin: 3px 0%;
+        opacity: 100%;
+        box-shadow: none;
+        color: black;
+        width: 60%;
+      }
+      img{
+        width: 8rem;
+      }
+    }
+    .servicios__subtitle{
+      width: 100%;
+      h2{
+        font-size: 25px;
+        margin-top: 2rem;
+      }
+    }
+    .servicios__example{
+      width: 95%;
+      margin-top: 4rem;
+      p{
+        font-size: 0.6rem;
+      }
+      .servicios__points{
+        font-size: 0.6rem;
+      }
+      .servicios__btn{
+        width: 110px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+          font-size: 0.6rem;
+        }
+      }
+      }
+  }
+    
+  #plan{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .plan__title{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 0.8rem;
+        }
+        hr{
+          margin: 3px 0%;
+          opacity: 100%;
+          box-shadow: none;
+          color: black;
+          width: 60%;
+        }
+        img{
+          width: 8rem;
+        }
+      }
+      .plan__subtitle{
+        width: 100%;
+        h2{
+          font-size: 25px;
+          margin-top: 2rem;
+        }
+      }
+      .plan__example{
+        margin: 2rem 0rem 0rem 0rem;
+        width: 99%;
+        p{
+          font-size: 0.6rem;
+        }
+      }
+    }
+    .plan__points{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+      width: 100%;
+      div{
+        display: flex;
+        margin: 0%;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+          .plan__points__box{
+            margin: 1%;
+            padding: 0%;
+            height: 100%;
+          }
         div{
           display: flex;
           flex-direction: row;
@@ -777,33 +1645,140 @@ footer{
           align-items: center;
           background-color: white;
           margin: 0px;
-          height: 200px;
+          height: 130px;
         }
         .plan__points__img{
-          width: 200px;
+          width: 130px;
+        }
+        .plan__points__text{
+          padding: 3%;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin: 0%;
+          h3{
+            padding-bottom: 5%;
+            width: 100%;
+            margin: 0px;
+            font-size: 0.7rem;
+            font-weight: 600;
+          }
+          p{
+            font-size: 0.6rem;
+            width: 100%;
+            margin: 0px;
+          }
         }
       }
+    }
+  }
+  
+  #contacto{
+    flex-wrap: wrap;
+    margin: 3% 6%;
+    .contacto__title{
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      h5{
+        font-size: 0.8rem;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: black;
+        width: 60%;
+      }
+    }
+    .contacto__subtitle{
+      margin: 0px;
+      width: 100%;
+      margin-top: 2rem;
+      h2{
+        font-size: 25px;
+        margin-bottom: 1.5rem;
+      }
+      div{
+        font-size: 0.7rem;
+      }
+    }
+    .contacto__form{
+      width: 90%;
+      margin-top: 2rem;
+      form{
+        label{
+          font-size: 0.7rem;
+        }
+        input{
+          font-size: 0.7rem;
+        }
+        textarea{
+          font-size: 0.7rem;
+          height: 80px;
+        }
+        button{
+          font-size: 0.7rem;
+          width: 110px;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .contacto__form__checkbox{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        color: black;
+        div{
+          p{
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+    
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .footer__marca{
+      width: 95%;
+      align-items: center;
+      div{
+        .footer__logo{
+          a{
+            img{
+              width: 120px;
+            }
+          }
+          .footer__logo__info{
+            font-size: 0.6rem;
+            p{
+              font-size: 0.6rem;
+            }
+          }
+        }
+      }
+      p{
+        font-size: 0.6rem;
+      }
+    }
+    .footer__links{
+      font-size: 0.6rem;
+      margin-top: 3rem;
+      width: 95%;
     }
   }
 }
-
-/* @media screen and (max-width: 900px) and (min-width: 700px) {
-  #servicios{
-    margin: 5% 2%;
-    .servicios__title{
-        width: 25%;
-    }
-    .servicios__subtitle{
-          width: 25%;
-      h2{
-        font-size: x-large;
-      }
-    }
-    .servicios__example{
-      width: 30%;
-      p{
-        font-size: small;
-      }
-    }
-  }
-} */

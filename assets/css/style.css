@@ -12060,6 +12060,25 @@ header #nav ul li a:hover {
   display: none;
 }
 
+#carousel-large {
+  display: block;
+}
+#carousel-large #carouselExampleIndicators .carousel-inner .carousel-item {
+  margin: none;
+}
+#carousel-large #carouselExampleIndicators .carousel-inner .carousel-item p {
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 44%;
+  left: 25%;
+  color: white;
+  margin: 0px;
+}
+
+#carousel-small {
+  display: none;
+}
+
 #servicios {
   display: flex;
   flex-wrap: nowrap;
@@ -12147,7 +12166,7 @@ header #nav ul li a:hover {
 }
 
 #plan {
-  background-color: #f2fad3;
+  background-color: #f1efe8;
   padding: 3% 0%;
 }
 #plan div {
@@ -12212,7 +12231,7 @@ header #nav ul li a:hover {
   margin: 0%;
   flex-direction: row;
   align-items: center;
-  width: 74%;
+  width: 80%;
   justify-content: center;
 }
 #plan .plan__points div .plan__points__box {
@@ -12443,25 +12462,8 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   #plan .plan__points div {
     width: 80%;
   }
-  /*   #contacto{
-      flex-wrap: wrap;
-      margin: 3% 6%;
-      .contacto__title{
-        flex-direction: column;
-        width: 45%;
-        margin: 0px;
-      }
-      .contacto__subtitle{
-        margin: 0px;
-        width: 45%;
-      }
-      .contacto__form{
-        width: 50%;
-        margin-top: 4rem;
-      }
-    } */
 }
-@media screen and (max-width: 1180px) and (min-width: 900px) {
+@media screen and (max-width: 1180px) and (min-width: 1030px) {
   #servicios {
     margin: 3% 6%;
     flex-wrap: wrap;
@@ -12564,7 +12566,178 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin-top: 4rem;
   }
 }
-@media screen and (max-width: 800px) and (min-width: 600px) {
+@media screen and (max-width: 1030px) and (min-width: 850px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.2rem;
+    bottom: 42%;
+    left: 25%;
+  }
+  #servicios {
+    margin: 3% 6%;
+    flex-wrap: wrap;
+  }
+  #servicios .servicios__title {
+    width: 45%;
+  }
+  #servicios .servicios__title h5, #servicios .servicios__title .h5 {
+    font-size: 1.4rem;
+  }
+  #servicios .servicios__title img {
+    width: 13rem;
+  }
+  #servicios .servicios__subtitle {
+    width: 45%;
+  }
+  #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
+    font-size: 45px;
+  }
+  #servicios .servicios__example {
+    width: 50%;
+    margin-top: 4rem;
+  }
+  #servicios .servicios__example p {
+    font-size: 0.9rem;
+  }
+  #servicios .servicios__example .servicios__points {
+    font-size: 0.9rem;
+  }
+  #servicios .servicios__example .servicios__btn a {
+    font-size: 0.9rem;
+  }
+  #plan div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #plan div .plan__title {
+    width: 45%;
+  }
+  #plan div .plan__title h5, #plan div .plan__title .h5 {
+    font-size: 1.4rem;
+  }
+  #plan div .plan__title img {
+    width: 13rem;
+  }
+  #plan div .plan__subtitle {
+    width: 45%;
+  }
+  #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
+    font-size: 45px;
+  }
+  #plan div .plan__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
+  #plan div .plan__example p {
+    font-size: 0.9rem;
+  }
+  #plan .plan__points {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+  }
+  #plan .plan__points div {
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+  }
+  #plan .plan__points div .plan__points__box {
+    margin: 1%;
+    padding: 0%;
+    height: 100%;
+  }
+  #plan .plan__points div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    height: 200px;
+  }
+  #plan .plan__points div .plan__points__img {
+    width: 200px;
+  }
+  #plan .plan__points div .plan__points__text {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0%;
+  }
+  #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
+    padding-bottom: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  #plan .plan__points div .plan__points__text p {
+    font-size: 0.77rem;
+    width: 100%;
+    margin: 0px;
+  }
+  #contacto {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    flex-direction: column;
+    width: 45%;
+    margin: 0px;
+  }
+  #contacto .contacto__title h5, #contacto .contacto__title .h5 {
+    font-size: 1.4rem;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 45%;
+  }
+  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
+    font-size: 45px;
+  }
+  #contacto .contacto__subtitle div {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form {
+    width: 50%;
+    margin-top: 4rem;
+  }
+  #contacto .contacto__form form label {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form input {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form textarea {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form button {
+    font-size: 1rem;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info p {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca p {
+    font-size: 0.8rem;
+  }
+  footer .footer__links {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 600px) {
   #nav {
     display: none;
   }
@@ -12593,35 +12766,132 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     font-size: small;
     margin-bottom: 25px;
   }
+  #carousel-small {
+    display: block;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item {
+    margin: 0%;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 65%;
+    left: 10%;
+    color: white;
+    margin: 0px;
+  }
+  #carousel-large {
+    display: none;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.2rem;
+    bottom: 42%;
+    left: 25%;
+  }
   #servicios {
-    margin: 5% 2%;
+    display: flex;
+    margin: 3% 6%;
+    flex-wrap: wrap;
   }
   #servicios .servicios__title {
-    width: 25%;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #servicios .servicios__title h5, #servicios .servicios__title .h5 {
+    font-size: 1.4rem;
+  }
+  #servicios .servicios__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #servicios .servicios__title img {
+    width: 13rem;
   }
   #servicios .servicios__subtitle {
-    width: 25%;
+    width: 100%;
   }
   #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
-    font-size: x-large;
+    font-size: 45px;
+    margin-top: 3rem;
   }
   #servicios .servicios__example {
-    width: 30%;
+    width: 80%;
+    margin-top: 4rem;
   }
   #servicios .servicios__example p {
-    font-size: small;
+    font-size: 0.9rem;
+  }
+  #servicios .servicios__example .servicios__points {
+    font-size: 0.9rem;
+  }
+  #servicios .servicios__example .servicios__btn a {
+    font-size: 0.9rem;
+  }
+  #plan div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #plan div .plan__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #plan div .plan__title h5, #plan div .plan__title .h5 {
+    font-size: 1.4rem;
+  }
+  #plan div .plan__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #plan div .plan__title img {
+    width: 13rem;
+  }
+  #plan div .plan__subtitle {
+    width: 100%;
+  }
+  #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
+    font-size: 45px;
+    margin-top: 3rem;
+  }
+  #plan div .plan__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 80%;
+  }
+  #plan div .plan__example p {
+    font-size: 0.9rem;
   }
   #plan .plan__points {
-    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
   }
   #plan .plan__points div {
-    flex-direction: column;
-    flex-wrap: nowrap;
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    width: 83%;
+    justify-content: center;
   }
   #plan .plan__points div .plan__points__box {
-    margin: 3%;
+    margin: 1%;
     padding: 0%;
-    width: 68%;
+    height: 100%;
   }
   #plan .plan__points div div {
     display: flex;
@@ -12635,6 +12905,101 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #plan .plan__points div .plan__points__img {
     width: 200px;
+  }
+  #plan .plan__points div .plan__points__text {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0%;
+  }
+  #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
+    padding-bottom: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  #plan .plan__points div .plan__points__text p {
+    font-size: 0.77rem;
+    width: 100%;
+    margin: 0px;
+  }
+  #contacto {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #contacto .contacto__title h5, #contacto .contacto__title .h5 {
+    font-size: 1.4rem;
+  }
+  #contacto .contacto__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
+    font-size: 45px;
+    margin-bottom: 2.9rem;
+  }
+  #contacto .contacto__subtitle div {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form {
+    width: 80%;
+    margin-top: 4rem;
+  }
+  #contacto .contacto__form form label {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form input {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form textarea {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form button {
+    font-size: 1rem;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .footer__marca {
+    width: 70%;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info p {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca p {
+    font-size: 0.8rem;
+  }
+  footer .footer__links {
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    width: 70%;
   }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
@@ -12646,6 +13011,271 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     background-color: #fff;
   }
   #nav__small .navbar-brand img {
+    width: 150px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-header img, #nav__small .container-sm .offcanvas-end .offcanvas-header img, #nav__small .container-md .offcanvas-end .offcanvas-header img, #nav__small .container-lg .offcanvas-end .offcanvas-header img, #nav__small .container-xl .offcanvas-end .offcanvas-header img, #nav__small .container-xxl .offcanvas-end .offcanvas-header img {
+    width: 150px;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul, #nav__small .container-sm .offcanvas-end .offcanvas-body ul, #nav__small .container-md .offcanvas-end .offcanvas-body ul, #nav__small .container-lg .offcanvas-end .offcanvas-body ul, #nav__small .container-xl .offcanvas-end .offcanvas-body ul, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+  }
+  #nav__small .container-fluid .offcanvas-end .offcanvas-body ul li, #nav__small .container-sm .offcanvas-end .offcanvas-body ul li, #nav__small .container-md .offcanvas-end .offcanvas-body ul li, #nav__small .container-lg .offcanvas-end .offcanvas-body ul li, #nav__small .container-xl .offcanvas-end .offcanvas-body ul li, #nav__small .container-xxl .offcanvas-end .offcanvas-body ul li {
+    font-size: small;
+    margin-bottom: 25px;
+  }
+  #carousel-small {
+    display: block;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item {
+    margin: 0%;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 65%;
+    left: 10%;
+    color: white;
+    margin: 0px;
+  }
+  #carousel-large {
+    display: none;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.2rem;
+    bottom: 42%;
+    left: 25%;
+  }
+  #servicios {
+    display: flex;
+    margin: 3% 6%;
+    flex-wrap: wrap;
+  }
+  #servicios .servicios__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #servicios .servicios__title h5, #servicios .servicios__title .h5 {
+    font-size: 1rem;
+  }
+  #servicios .servicios__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #servicios .servicios__title img {
+    width: 10rem;
+  }
+  #servicios .servicios__subtitle {
+    width: 100%;
+  }
+  #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  #servicios .servicios__example {
+    width: 80%;
+    margin-top: 4rem;
+  }
+  #servicios .servicios__example p {
+    font-size: 0.8rem;
+  }
+  #servicios .servicios__example .servicios__points {
+    font-size: 0.8rem;
+  }
+  #servicios .servicios__example .servicios__btn a {
+    font-size: 0.8rem;
+  }
+  #plan div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #plan div .plan__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #plan div .plan__title h5, #plan div .plan__title .h5 {
+    font-size: 1rem;
+  }
+  #plan div .plan__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #plan div .plan__title img {
+    width: 10rem;
+  }
+  #plan div .plan__subtitle {
+    width: 100%;
+  }
+  #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  #plan div .plan__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 90%;
+  }
+  #plan div .plan__example p {
+    font-size: 0.8rem;
+  }
+  #plan .plan__points {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+  }
+  #plan .plan__points div {
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    justify-content: center;
+  }
+  #plan .plan__points div .plan__points__box {
+    margin: 1%;
+    padding: 0%;
+    height: 100%;
+  }
+  #plan .plan__points div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    height: 190px;
+  }
+  #plan .plan__points div .plan__points__img {
+    width: 190px;
+  }
+  #plan .plan__points div .plan__points__text {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0%;
+  }
+  #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
+    padding-bottom: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  #plan .plan__points div .plan__points__text p {
+    font-size: 0.7rem;
+    width: 100%;
+    margin: 0px;
+  }
+  #contacto {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #contacto .contacto__title h5, #contacto .contacto__title .h5 {
+    font-size: 1rem;
+  }
+  #contacto .contacto__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
+    font-size: 35px;
+    margin-bottom: 2rem;
+  }
+  #contacto .contacto__subtitle div {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form {
+    width: 90%;
+    margin-top: 4rem;
+  }
+  #contacto .contacto__form form label {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form input {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form textarea {
+    font-size: 1rem;
+  }
+  #contacto .contacto__form form button {
+    font-size: 1rem;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .footer__marca {
+    width: 70%;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info p {
+    font-size: 0.8rem;
+  }
+  footer .footer__marca p {
+    font-size: 0.8rem;
+  }
+  footer .footer__links {
+    font-size: 0.8rem;
+    margin-top: 4rem;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 300px) {
+  #nav {
+    display: none;
+  }
+  #nav__small {
+    display: block;
+    background-color: #fff;
+  }
+  #nav__small .navbar-brand img {
     width: 120px;
   }
   #nav__small .container-fluid .offcanvas-end .offcanvas-header img, #nav__small .container-sm .offcanvas-end .offcanvas-header img, #nav__small .container-md .offcanvas-end .offcanvas-header img, #nav__small .container-lg .offcanvas-end .offcanvas-header img, #nav__small .container-xl .offcanvas-end .offcanvas-header img, #nav__small .container-xxl .offcanvas-end .offcanvas-header img {
@@ -12666,17 +13296,142 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     font-size: small;
     margin-bottom: 25px;
   }
+  #carousel-small {
+    display: block;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item {
+    margin: 0%;
+  }
+  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    color: white;
+    margin: 0px;
+  }
+  #carousel-large {
+    display: none;
+  }
+  #carouselExampleIndicators .carousel-inner .carousel-item p {
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 60%;
+    left: 7%;
+    color: white;
+    margin: 0px;
+  }
+  #servicios {
+    display: flex;
+    margin: 3% 6%;
+    flex-wrap: wrap;
+  }
+  #servicios .servicios__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #servicios .servicios__title h5, #servicios .servicios__title .h5 {
+    font-size: 0.8rem;
+  }
+  #servicios .servicios__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #servicios .servicios__title img {
+    width: 8rem;
+  }
+  #servicios .servicios__subtitle {
+    width: 100%;
+  }
+  #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+  #servicios .servicios__example {
+    width: 95%;
+    margin-top: 4rem;
+  }
+  #servicios .servicios__example p {
+    font-size: 0.6rem;
+  }
+  #servicios .servicios__example .servicios__points {
+    font-size: 0.6rem;
+  }
+  #servicios .servicios__example .servicios__btn {
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #servicios .servicios__example .servicios__btn a {
+    font-size: 0.6rem;
+  }
+  #plan div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #plan div .plan__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #plan div .plan__title h5, #plan div .plan__title .h5 {
+    font-size: 0.8rem;
+  }
+  #plan div .plan__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #plan div .plan__title img {
+    width: 8rem;
+  }
+  #plan div .plan__subtitle {
+    width: 100%;
+  }
+  #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+  #plan div .plan__example {
+    margin: 2rem 0rem 0rem 0rem;
+    width: 99%;
+  }
+  #plan div .plan__example p {
+    font-size: 0.6rem;
+  }
   #plan .plan__points {
-    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
   }
   #plan .plan__points div {
-    flex-direction: column;
-    flex-wrap: nowrap;
+    display: flex;
+    margin: 0%;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
   }
   #plan .plan__points div .plan__points__box {
-    margin: 1% 2%;
-    padding: 0% 0% 1% 0%;
-    width: 95%;
+    margin: 1%;
+    padding: 0%;
+    height: 100%;
   }
   #plan .plan__points div div {
     display: flex;
@@ -12686,29 +13441,125 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     align-items: center;
     background-color: white;
     margin: 0px;
-    height: 200px;
+    height: 130px;
   }
   #plan .plan__points div .plan__points__img {
-    width: 200px;
+    width: 130px;
   }
-}
-/* @media screen and (max-width: 900px) and (min-width: 700px) {
-  #servicios{
-    margin: 5% 2%;
-    .servicios__title{
-        width: 25%;
-    }
-    .servicios__subtitle{
-          width: 25%;
-      h2{
-        font-size: x-large;
-      }
-    }
-    .servicios__example{
-      width: 30%;
-      p{
-        font-size: small;
-      }
-    }
+  #plan .plan__points div .plan__points__text {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0%;
   }
-} *//*# sourceMappingURL=style.css.map */
+  #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
+    padding-bottom: 5%;
+    width: 100%;
+    margin: 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  #plan .plan__points div .plan__points__text p {
+    font-size: 0.6rem;
+    width: 100%;
+    margin: 0px;
+  }
+  #contacto {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #contacto .contacto__title h5, #contacto .contacto__title .h5 {
+    font-size: 0.8rem;
+  }
+  #contacto .contacto__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  #contacto .contacto__subtitle div {
+    font-size: 0.7rem;
+  }
+  #contacto .contacto__form {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  #contacto .contacto__form form label {
+    font-size: 0.7rem;
+  }
+  #contacto .contacto__form form input {
+    font-size: 0.7rem;
+  }
+  #contacto .contacto__form form textarea {
+    font-size: 0.7rem;
+    height: 80px;
+  }
+  #contacto .contacto__form form button {
+    font-size: 0.7rem;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contacto .contacto__form .contacto__form__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: black;
+  }
+  #contacto .contacto__form .contacto__form__checkbox div p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  footer .footer__marca {
+    width: 95%;
+    align-items: center;
+  }
+  footer .footer__marca div .footer__logo a img {
+    width: 120px;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info {
+    font-size: 0.6rem;
+  }
+  footer .footer__marca div .footer__logo .footer__logo__info p {
+    font-size: 0.6rem;
+  }
+  footer .footer__marca p {
+    font-size: 0.6rem;
+  }
+  footer .footer__links {
+    font-size: 0.6rem;
+    margin-top: 3rem;
+    width: 95%;
+  }
+}/*# sourceMappingURL=style.css.map */
