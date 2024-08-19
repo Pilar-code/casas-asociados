@@ -11991,6 +11991,7 @@ body {
   padding: 0;
 }
 
+/* HEADER */
 header {
   color: #000000;
   padding: 10px 0;
@@ -12060,6 +12061,8 @@ header #nav ul li a:hover {
   display: none;
 }
 
+/* FIN HEADER */
+/* INDEX */
 #carousel-large {
   display: block;
 }
@@ -12100,7 +12103,7 @@ header #nav ul li a:hover {
   margin: 3px 0px;
   opacity: inherit;
   box-shadow: none;
-  color: black;
+  color: #000000;
 }
 #servicios .servicios__title img {
   width: 15rem;
@@ -12192,7 +12195,7 @@ header #nav ul li a:hover {
   margin: 3px 0px;
   opacity: inherit;
   box-shadow: none;
-  color: black;
+  color: #000000;
   width: 100%;
 }
 #plan div .plan__title img {
@@ -12295,7 +12298,7 @@ header #nav ul li a:hover {
   margin: 3px 0px;
   opacity: inherit;
   box-shadow: none;
-  color: black;
+  color: #000000;
   width: 100%;
 }
 #contacto .contacto__subtitle {
@@ -12372,7 +12375,7 @@ header #nav ul li a:hover {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  color: black;
+  color: #000000;
 }
 #contacto .contacto__form form .contacto__form__checkbox div {
   display: flex;
@@ -12387,8 +12390,105 @@ header #nav ul li a:hover {
   margin: 4% 0% 0% 20%;
 }
 
+/* FIN INDEX */
+/* ABOOUT US */
+#about {
+  background-color: #f1efe8;
+  padding: 3% 0% 15% 0%;
+}
+#about div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 3% 2%;
+  justify-content: space-evenly;
+}
+#about div .about__title {
+  flex-direction: column;
+  width: 25%;
+  margin: 0px;
+}
+#about div .about__title h5, #about div .about__title .h5 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+}
+#about div .about__title hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 100%;
+}
+#about div .about__title img {
+  width: 15rem;
+  margin-top: 2rem;
+}
+#about div .about__subtitle {
+  margin: 0px;
+  width: 37%;
+}
+#about div .about__subtitle h2, #about div .about__subtitle .h2 {
+  width: 100%;
+  font-size: 55px;
+  font-weight: 300;
+}
+#about div .about__example {
+  margin: 0px;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+#about div .about__example p {
+  font-size: 1rem;
+}
+
+#quienes-somos .img {
+  position: relative;
+  bottom: 150px;
+}
+#quienes-somos .img img {
+  width: 60%;
+  left: 20%;
+  position: relative;
+}
+#quienes-somos .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#quienes-somos .team .team__position {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+#quienes-somos .team .team__position .team-member {
+  width: 200px;
+}
+#quienes-somos .team .team__position .team-member p {
+  font: 1.2rem;
+}
+#quienes-somos .team .team__position .team-member img {
+  width: 40px;
+}
+#quienes-somos .team hr {
+  margin: 90px 0px;
+  opacity: 100%;
+  box-shadow: none;
+  color: #000000;
+  width: 90%;
+  background-color: #000000;
+}
+
+/* FIN ABOUT US */
 footer {
-  background-color: black;
+  background-color: #000000;
   color: white;
   display: flex;
   flex-wrap: nowrap;
@@ -12565,6 +12665,20 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     width: 50%;
     margin-top: 4rem;
   }
+  #about div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 45%;
+  }
+  #about div .about__subtitle {
+    width: 45%;
+  }
+  #about div .about__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 1030px) and (min-width: 850px) {
   #carouselExampleIndicators .carousel-inner .carousel-item p {
@@ -12724,6 +12838,32 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   #contacto .contacto__form form button {
     font-size: 1rem;
   }
+  #about div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 45%;
+  }
+  #about div .about__title h5, #about div .about__title .h5 {
+    font-size: 1.4rem;
+  }
+  #about div .about__title img {
+    width: 13rem;
+  }
+  #about div .about__subtitle {
+    width: 45%;
+  }
+  #about div .about__subtitle h2, #about div .about__subtitle .h2 {
+    font-size: 45px;
+  }
+  #about div .about__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
+  #about div .about__example p {
+    font-size: 0.9rem;
+  }
   footer .footer__marca div .footer__logo .footer__logo__info {
     font-size: 0.8rem;
   }
@@ -12807,7 +12947,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #servicios .servicios__title img {
@@ -12851,7 +12991,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #plan div .plan__title img {
@@ -12976,6 +13116,44 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #contacto .contacto__form form button {
     font-size: 1rem;
+  }
+  #about div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #about div .about__title h5, #about div .about__title .h5 {
+    font-size: 1.4rem;
+  }
+  #about div .about__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #about div .about__title img {
+    width: 13rem;
+  }
+  #about div .about__subtitle {
+    width: 100%;
+  }
+  #about div .about__subtitle h2, #about div .about__subtitle .h2 {
+    font-size: 45px;
+    margin-top: 3rem;
+  }
+  #about div .about__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 80%;
+  }
+  #about div .about__example p {
+    font-size: 0.9rem;
   }
   footer {
     display: flex;
@@ -13241,6 +13419,44 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #contacto .contacto__form form button {
     font-size: 1rem;
+  }
+  #about div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #about div .about__title h5, #about div .about__title .h5 {
+    font-size: 1rem;
+  }
+  #about div .about__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #about div .about__title img {
+    width: 10rem;
+  }
+  #about div .about__subtitle {
+    width: 100%;
+  }
+  #about div .about__subtitle h2, #about div .about__subtitle .h2 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  #about div .about__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 90%;
+  }
+  #about div .about__example p {
+    font-size: 0.8rem;
   }
   footer {
     display: flex;
@@ -13533,6 +13749,44 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 0.7rem;
+  }
+  #about div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #about div .about__title h5, #about div .about__title .h5 {
+    font-size: 0.8rem;
+  }
+  #about div .about__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: black;
+    width: 60%;
+  }
+  #about div .about__title img {
+    width: 8rem;
+  }
+  #about div .about__subtitle {
+    width: 100%;
+  }
+  #about div .about__subtitle h2, #about div .about__subtitle .h2 {
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+  #about div .about__example {
+    margin: 2rem 0rem 0rem 0rem;
+    width: 99%;
+  }
+  #about div .about__example p {
+    font-size: 0.6rem;
   }
   footer {
     display: flex;
