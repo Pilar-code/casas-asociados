@@ -530,10 +530,10 @@ header {
       width: 85%;
       flex-wrap: wrap;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
       .team-member{
         width: 200px;
-        margin-bottom: 40px;
+        margin-bottom: 2rem;
         p{
           font: 1.2rem;
         }
@@ -555,6 +555,297 @@ header {
 
 /* FIN ABOUT US */
 
+/* SERVICES */
+#services{
+  background-color: #f1efe8;
+  padding: 3% 0% 15% 0%;
+  div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 3% 2%;
+    justify-content: space-evenly;
+    .services__title{
+      flex-direction: column;
+      width: 25%;
+      margin: 0px;
+      h5{
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: $primary-color;
+        width: 100%;
+      }
+      img{
+        width: 15rem;
+        margin-top: 2rem;
+      }
+    }
+    .services__subtitle{
+      margin: 0px;
+      width: 37%;
+      h2{
+        width: 100%;
+        font-size: 55px;
+        font-weight: 300;
+      }
+    }
+    .services__example{
+      margin: 0px;
+      flex-direction: column;
+      width: 30%;
+      align-items: center;
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+#detalle{
+  nav{
+    background-color: $pink-color;
+    color: $secondary-color;
+    ul{
+      li{
+        a{
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+  .detalle__opciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    div{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      img{
+        width: 50%;
+      }
+    }
+    #fiscal{
+      flex-direction: row;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #contable{
+      flex-direction: row-reverse;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #laboral{
+      flex-direction: row;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mercantil{
+      flex-direction: row-reverse;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #administrativa{
+      flex-direction: row;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #consultoria{
+      flex-direction: row-reverse;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #otros{
+      flex-direction: row;
+      div{
+        margin: 2rem 4rem;
+        h3{
+          font-size: 3rem;
+        }
+        p{
+          font-size: 1.5rem;
+        }
+        .collapse{
+          .card-body{
+            margin-bottom: 2rem;
+          }
+          .card-example{
+            .card-example-options{
+              display: flex;
+              align-items: center;
+              margin-bottom: 2rem;
+              img{
+                margin-right: 1rem;
+              }
+              p{
+                margin: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* FIN DE SERVICES */
 footer{
   background-color: $primary-color;
   color: white;
@@ -761,6 +1052,22 @@ footer{
       }
     }
   }
+  #services{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .services__title{
+        width: 45%;
+      }
+      .services__subtitle{
+        width: 45%;
+      }
+      .services__example{
+        margin: 4rem 0rem 0rem 0rem;
+        width: 50%;
+      }
+    }
+  }
 }
 
 
@@ -959,6 +1266,35 @@ footer{
         }
       }
       .about__example{
+        margin: 4rem 0rem 0rem 0rem;
+        width: 50%;
+        p{
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  #services{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .services__title{
+        width: 45%;
+        h5{
+          font-size: 1.4rem;
+        }
+        img{
+          width: 13rem;
+        }
+      }
+      .services__subtitle{
+        width: 45%;
+        h2{
+          font-size: 45px;
+        }
+      }
+      .services__example{
         margin: 4rem 0rem 0rem 0rem;
         width: 50%;
         p{
@@ -1282,7 +1618,7 @@ footer{
           margin: 3px 0%;
           opacity: 100%;
           box-shadow: none;
-          color: $primary-colork;
+          color: $primary-color;
           width: 60%;
         }
         img{
@@ -1309,6 +1645,47 @@ footer{
     .img{
       position: relative;
       bottom: 120px;
+    }
+  }
+
+  #services{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .services__title{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 1.4rem;
+        }
+        hr{
+          margin: 3px 0%;
+          opacity: 100%;
+          box-shadow: none;
+          color: $primary-colork;
+          width: 60%;
+        }
+        img{
+          width: 13rem;
+        }
+      }
+      .services__subtitle{
+        width: 100%;
+        h2{
+          font-size: 45px;
+          margin-top: 3rem;
+        }
+      }
+      .services__example{
+        margin: 4rem 0rem 0rem 0rem;
+        width: 80%;
+        p{
+          font-size: 0.9rem;
+        }
+      }
     }
   }
     
@@ -1668,6 +2045,47 @@ footer{
       .img{
         position: relative;
         bottom: 85px;
+      }
+    }
+
+    #services{
+      div{
+        flex-wrap: wrap;
+        margin: 3% 6%;
+        .services__title{
+          width: 100%;
+          display: flex;
+          height: 100%;
+          flex-direction: column;
+          align-items: flex-end;
+          h5{
+            font-size: 1rem;
+          }
+          hr{
+            margin: 3px 0%;
+            opacity: 100%;
+            box-shadow: none;
+            color: $primary-color;
+            width: 60%;
+          }
+          img{
+            width: 10rem;
+          }
+        }
+        .services__subtitle{
+          width: 100%;
+          h2{
+            font-size: 35px;
+            margin-top: 3rem;
+          }
+        }
+        .services__example{
+          margin: 4rem 0rem 0rem 0rem;
+          width: 90%;
+          p{
+            font-size: 0.8rem;
+          }
+        }
       }
     }
       
@@ -2042,6 +2460,47 @@ footer{
         }
       }
       .about__example{
+        margin: 2rem 0rem 0rem 0rem;
+        width: 99%;
+        p{
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+
+  #services{
+    div{
+      flex-wrap: wrap;
+      margin: 3% 6%;
+      .services__title{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 0.8rem;
+        }
+        hr{
+          margin: 3px 0%;
+          opacity: 100%;
+          box-shadow: none;
+          color: $primary-color;
+          width: 60%;
+        }
+        img{
+          width: 8rem;
+        }
+      }
+      .services__subtitle{
+        width: 100%;
+        h2{
+          font-size: 25px;
+          margin-top: 2rem;
+        }
+      }
+      .services__example{
         margin: 2rem 0rem 0rem 0rem;
         width: 99%;
         p{

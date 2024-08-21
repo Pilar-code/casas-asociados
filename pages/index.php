@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('../includes/header.php'); ?>
 
 <section id="intro">
     <div id="carousel-large">
@@ -11,7 +11,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/banner1.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner1.webp" class="d-block w-100" alt="...">
                     <p>
                         ¿Noches
                         <br>en vela
@@ -22,7 +22,7 @@
                     </p>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner2.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner2.webp" class="d-block w-100" alt="...">
                     <p>
                         Tu empresa
                         <br>siempre en
@@ -30,7 +30,7 @@
                     </p>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner3.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner3.webp" class="d-block w-100" alt="...">
                     <p>Financiación,
                         <br>gestión de
                         <br>activos,
@@ -39,7 +39,7 @@
                     </p>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner4.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner4.webp" class="d-block w-100" alt="...">
                     <p>
                         En la
                         <br>empresa,
@@ -69,7 +69,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/banner1-sm.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner1-sm.webp" class="d-block w-100" alt="...">
                     <p>¿Noches
                         <br>en vela
                         <br>pensando
@@ -79,14 +79,14 @@
                     </p>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner2-sm.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner2-sm.webp" class="d-block w-100" alt="...">
                     <p>Tu empresa
                         <br>siempre en
                         <br>marcha.
                     </p>
                 </div>
                 <div class="carousel-item">
-                <img src="img/banner3-sm.webp" class="d-block w-100" alt="...">
+                <img src="../img/banner3-sm.webp" class="d-block w-100" alt="...">
                     <p>Financiación,
                         <br>gestión de
                         <br>activos,
@@ -95,7 +95,7 @@
                     </p>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner4-sm.webp" class="d-block w-100" alt="...">
+                    <img src="../img/banner4-sm.webp" class="d-block w-100" alt="...">
                     <p>En la
                         <br>empresa,
                         <br>prevenir es
@@ -119,7 +119,7 @@
     <div class="servicios__title">
         <h5>SERVICIOS</h5>
         <hr>
-        <img src="img/detalle.png" alt="">
+        <img src="../img/detalle.png" alt="">
     </div>
     <div class="servicios__subtitle">
         <h2>Huimos de los 
@@ -161,7 +161,7 @@
         <div class="plan__title">
             <h5>EL PLAN</h5>
             <hr>
-            <img src="img/detalle.png" alt="">
+            <img src="../img/detalle.png" alt="">
         </div>
         <div class="plan__subtitle">
             <h2>
@@ -202,7 +202,7 @@
     <div class="plan__points">
         <div>
             <div class="plan__points__box">
-                <img class="plan__points__img" src="img/impactacom_light_ambiant_first_plane_of_business_woman_hands_us_f352cc89-9ff4-4e70-96ff-9f678d9fa2a4.png" alt="">
+                <img class="plan__points__img" src="../img/impactacom_light_ambiant_first_plane_of_business_woman_hands_us_f352cc89-9ff4-4e70-96ff-9f678d9fa2a4.png" alt="">
                 <div class="plan__points__text">
                     <h3>Tu empresa
                     en marcha</h3>
@@ -216,7 +216,7 @@
                 </div>
             </div>
             <div class="plan__points__box">
-                <img class="plan__points__img" src="img/impactacom_Caucasian_athlete_dressed_in_a_business_suit_partici_c775b6db-e7fd-4269-aa53-b21e04e0ec3d.png" alt="">
+                <img class="plan__points__img" src="../img/impactacom_Caucasian_athlete_dressed_in_a_business_suit_partici_c775b6db-e7fd-4269-aa53-b21e04e0ec3d.png" alt="">
                 <div class="plan__points__text">
                     <h3>
                         Financiación,
@@ -234,7 +234,7 @@
         </div>
         <div>
             <div class="plan__points__box">
-                <img class="plan__points__img" src="img/impactacom_Handsome_man_sleeping_in_bed_eyes_closed_and_smiling_4a9bb171-8899-4348-9e16-e1a6456996cc.png" alt="">
+                <img class="plan__points__img" src="../img/impactacom_Handsome_man_sleeping_in_bed_eyes_closed_and_smiling_4a9bb171-8899-4348-9e16-e1a6456996cc.png" alt="">
                 <div class="plan__points__text">
                     <h3>Te ayudamos a
                     conciliar el sueño</h3>
@@ -248,7 +248,7 @@
                 </div>
             </div>
             <div class="plan__points__box">
-                <img class="plan__points__img" src="img/impactacom_Closeup_of_beautiful_elegant_35_years_woman_business_8933c13a-0dc2-49d7-a574-5fef1c10076c.png" alt="">
+                <img class="plan__points__img" src="../img/impactacom_Closeup_of_beautiful_elegant_35_years_woman_business_8933c13a-0dc2-49d7-a574-5fef1c10076c.png" alt="">
                 <div class="plan__points__text">
                     <h3>Concentrate 
                         en lo importante</h3>
@@ -265,5 +265,5 @@
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<?php include('includes/form.php'); ?>
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/form.php'); ?>
+<?php include('../includes/footer.php'); ?>

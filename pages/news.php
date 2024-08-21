@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('../includes/header.php'); ?>
 
 <section id="actualidad">
     <h2>Actualidad</h2>
@@ -9,4 +9,4 @@
     </article>
 </section>
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>

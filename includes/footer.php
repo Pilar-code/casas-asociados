@@ -3,7 +3,7 @@
         <div>
             <div class="footer__logo">
                 <a href="index.php">
-                    <img src="./img/logo-negativo-casas-y-asociados.png" alt=" ">
+                    <img src="../img/logo-negativo-casas-y-asociados.png" alt=" ">
                 </a>
                 <div class="footer__logo__info">
                     <p>Paseo de la Constitución, 24</p>
@@ -41,10 +41,10 @@
             <p>Siguenos</p>
             <ul class="footer__links__column__social">
                 <li>
-                    <a href=""><img width="25" height="25" src="./img/icons8-facebook-white-64.png" alt=""/></a>
+                    <a href=""><img width="25" height="25" src="../img/icons8-facebook-white-64.png" alt=""/></a>
                 </li>
                 <li>
-                    <a href=""><img width="22" height="22" src="./img/icons8-instagram-white-50.png" alt=""/></a>
+                    <a href=""><img width="22" height="22" src="../img/icons8-instagram-white-50.png" alt=""/></a>
                 </li>
             </ul>
         </div>

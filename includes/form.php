@@ -9,20 +9,20 @@
             <br>compromiso.
         </h2>
         <div>
-            <img width="25" height="25" src="./img/icons8-marcador-48.png" alt=""/>
+            <img width="25" height="25" src="../img/icons8-marcador-48.png" alt=""/>
             <p>    
                 Paseo de la Constitución, 24
                 <br>50001 Zaragoza
             </p>
         </div>
         <div>
-            <img width="25" height="25" src="./img/icons8-teléfono-desconectado-48.png" alt=""/>
+            <img width="25" height="25" src="../img/icons8-teléfono-desconectado-48.png" alt=""/>
             <p>    
                 +34 976 000 000
             </p>
         </div>
         <div>
-            <img width="25" height="25" src="./img/icons8-nuevo-post-48.png" alt=""/>
+            <img width="25" height="25" src="../img/icons8-nuevo-post-48.png" alt=""/>
             <p>
                 info@casasasesores.com
             </p>

@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('../includes/header.php'); ?>
 
 <section id="contacto">
     <h2>Contacto</h2>
@@ -20,4 +20,4 @@
     </form>
 </section>
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
