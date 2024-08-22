@@ -637,28 +637,43 @@ header {
       flex-direction: row;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -667,28 +682,43 @@ header {
       flex-direction: row-reverse;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -697,28 +727,43 @@ header {
       flex-direction: row;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -727,28 +772,43 @@ header {
       flex-direction: row-reverse;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -757,28 +817,43 @@ header {
       flex-direction: row;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -787,28 +862,43 @@ header {
       flex-direction: row-reverse;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
               }
             }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
           }
         }
       }
@@ -817,26 +907,178 @@ header {
       flex-direction: row;
       div{
         margin: 2rem 4rem;
+        flex-direction: column;
         h3{
           font-size: 3rem;
         }
         p{
           font-size: 1.5rem;
         }
-        .collapse{
+        .move{
+          margin: 0px;
+          flex-direction: column;
           .card-body{
-            margin-bottom: 2rem;
+            margin: 0px;
           }
           .card-example{
+            flex-direction: column;
+            margin: 0px;
             .card-example-options{
               display: flex;
+              flex-direction: row;
               align-items: center;
-              margin-bottom: 2rem;
+              margin: 0px 0px 5px 0px;
               img{
+                width: 25px;
                 margin-right: 1rem;
               }
               p{
+                font-size: 1rem;
                 margin: 0px;
+              }
+            }
+          }
+        }
+        .arrow{
+          text-decoration: none;
+          color: $primary-color;
+          img{
+            width: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+/* FIN DE SERVICES */
+
+/* ACTUALIDAD */
+#actualidad{
+  background-color: #f1efe8;
+  padding: 3% 0% 3% 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+  .actualidad__title{
+    flex-direction: column;
+    width: 30%;
+    margin: 0px;
+    h5{
+      font-size: 2rem;
+      font-weight: 800;
+    }
+    hr{
+      margin: 3px 0px;
+      opacity: inherit;
+      box-shadow: none;
+      color: $primary-color;
+      width: 100%;
+    }
+    img{
+      width: 15rem;
+      margin-top: 2rem;
+    }
+  }
+  .actualidad__subtitle{
+    margin: 0px;
+    width: 60%;
+    h2{
+      margin-bottom: 10%;
+      font-size: 55px;
+    }
+    div{
+      display: flex;
+      align-items: center;
+      padding: 0px 0px 15px 0px;
+      font-size: 1.2rem;
+      text-decoration: underline;
+      p{
+        margin: 0px 0px 0px 20px;
+      }
+    }
+    .actualidad__points{
+      display: flex;
+    }
+  }
+}
+#blog{
+  padding: 4% 0% 4% 0%;
+  text-align: -webkit-center;
+  hr{
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: $primary-color;
+    width: 100%;
+  }
+  div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 3% 2%;
+    justify-content: space-evenly;
+    .blog__title{
+      flex-direction: column;
+      width: 20%;
+      margin: 0px;
+      h5{
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: $primary-color;
+        width: 80%;
+      }
+      a{
+        color: $primary-color;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        img{
+          width: 1.5rem;
+        }
+      }
+    }
+    .blog__subtitle{
+      margin: 0px;
+      width: 70%;
+      .card{
+        width: 24rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        .card-body{
+          flex-direction: column;
+          hr{
+            margin: 3px 0px;
+            opacity: inherit;
+            box-shadow: none;
+            color: $primary-color;
+            width: 100%;
+          }
+          .card-body-info{
+            display: flex;
+            flex-direction: column;
+            .card-title{
+              color: $pink-color;
+            }
+            .card-text{
+              text-align: left;
+            }
+            .arrow{
+              color: $primary-color;
+              text-decoration: none;
+              img{
+                width: 1.5rem;
               }
             }
           }
@@ -845,7 +1087,9 @@ header {
     }
   }
 }
-/* FIN DE SERVICES */
+
+/* FIN DE ACTUALIDAD */
+
 footer{
   background-color: $primary-color;
   color: white;
@@ -1665,7 +1909,7 @@ footer{
           margin: 3px 0%;
           opacity: 100%;
           box-shadow: none;
-          color: $primary-colork;
+          color: $primary-color;
           width: 60%;
         }
         img{
@@ -1688,7 +1932,306 @@ footer{
       }
     }
   }
-    
+  
+#detalle{
+  nav{
+    .sub__nav{
+      li{
+        a{
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+  .detalle__opciones{
+    #fiscal{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #contable{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #laboral{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #mercantil{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #administrativa{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #consultoria{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+    #otros{
+      div{
+        margin: 1rem 2rem;
+        h3{
+          font-size: 1.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.7rem;
+          }
+          .card-example{
+            .card-example-options{
+              margin: 0px 0px 5px 0px;
+              img{
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+              }
+              p{
+                font-size: 0.7rem;
+              }
+            }
+          }
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+#actualidad{
+  flex-wrap: wrap;
+  padding: 3% 6%;
+  .actualidad__title{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    h5{
+      font-size: 1.4rem;
+    }
+    hr{
+      margin: 3px 0px;
+      opacity: inherit;
+      box-shadow: none;
+      color: $primary-color;
+      width: 60%;
+    }
+    img{
+      width: 13rem;
+    }
+  }
+  .actualidad__subtitle{
+    margin: 0px;
+    width: 100%;
+    margin-top: 4rem;
+    h2{
+      font-size: 45px;
+      margin-bottom: 2.9rem;
+    }
+    div{
+      font-size: 1rem;
+    }
+  }    
+}
+
+#blog{
+  div{
+    flex-wrap: wrap;
+    align-items: flex-end;
+    .blog__title{
+      flex-direction: column;
+      width: 100%;
+      margin: 0% 0% 7% 0%;
+      align-items: flex-end;
+    }
+    .blog__subtitle{
+      .card{
+        .card-body{
+          align-items: flex-start;
+          .card-body-info{
+            align-items: flex-start;
+          }
+        }
+      }
+    }
+  }
+}
+
   footer{
     display: flex;
     flex-wrap: wrap;
@@ -2084,6 +2627,321 @@ footer{
           width: 90%;
           p{
             font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    #detalle{
+      .detalle__opciones{
+        #fiscal{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #contable{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #laboral{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #mercantil{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #administrativa{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #consultoria{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+        #otros{
+          div{
+            margin: 0.5rem 1rem;
+            h3{
+              font-size: 1rem;
+            }
+            p{
+              font-size: 0.7rem;
+            }
+            .move{
+              .card-body{
+                font-size: 0.6rem;
+              }
+              .card-example{
+                .card-example-options{
+                  margin: 0px 0px 5px 0px;
+                  img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 0.5rem;
+                  }
+                  p{
+                    font-size: 0.6rem;
+                  }
+                }
+              }
+            }
+            .arrow{
+              font-size: 0.7rem;
+              img{
+                width: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    
+    #actualidad{
+      flex-wrap: wrap;
+      padding: 3% 6%;
+      .actualidad__title{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        h5{
+          font-size: 1rem;
+        }
+        hr{
+          margin: 3px 0px;
+          opacity: inherit;
+          box-shadow: none;
+          color: $primary-color;
+          width: 60%;
+        }
+        img{
+          width: 10rem;
+        }
+      }
+      .actualidad__subtitle{
+        margin: 0px;
+        width: 100%;
+        margin-top: 4rem;
+        h2{
+          font-size: 35px;
+          margin-bottom: 2rem;
+        }
+        div{
+          font-size: 1rem;
+        }
+        .actualidad__points{
+          flex-wrap: wrap;
+        }
+      }
+    }
+
+    #blog{
+      div{
+        flex-wrap: wrap;
+        align-items: flex-end;
+        .blog__title{
+          flex-direction: column;
+          width: 100%;
+          margin: 0% 0% 7% 0%;
+          align-items: flex-end;
+        }
+        .blog__subtitle{
+          .card{
+            .card-body{
+              align-items: flex-start;
+              .card-body-info{
+                align-items: flex-start;
+              }
+            }
           }
         }
       }
@@ -2505,6 +3363,334 @@ footer{
         width: 99%;
         p{
           font-size: 0.6rem;
+        }
+      }
+    }
+  }
+  
+  #detalle{
+      nav{
+        .sub__nav{
+          li{
+            font-size: 0.6rem;
+            a{
+              font-size: 0.6rem;
+            }
+          }
+        }
+      }
+    .detalle__opciones{
+      #fiscal{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #contable{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #laboral{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #mercantil{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #administrativa{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #consultoria{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+      #otros{
+        div{
+          margin: 0.5rem 1rem;
+          h3{
+            font-size: 0.8rem;
+          }
+          p{
+            font-size: 0.6rem;
+          }
+          .move{
+            .card-body{
+              font-size: 0.5rem;
+            }
+            .card-example{
+              .card-example-options{
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 0.5rem;
+                }
+                p{
+                  font-size: 0.5rem;
+                }
+              }
+            }
+          }
+          .arrow{
+            font-size: 0.6rem;
+            img{
+              width: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  
+  #actualidad{
+    flex-wrap: wrap;
+    padding: 3% 6%;
+    .actualidad__title{
+      margin: 0px;
+      width: 100%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      align-items: flex-end;
+      h5{
+        font-size: 0.8rem;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: $primary-color;
+        width: 60%;
+      }
+      img{
+        width: 8rem;
+      }
+    }
+    .actualidad__subtitle{
+      margin: 0px;
+      width: 100%;
+      margin-top: 2rem;
+      h2{
+        font-size: 25px;
+        margin-bottom: 1.5rem;
+      }
+      div{
+        font-size: 0.7rem;
+      }
+      .actualidad__points{
+        flex-wrap: wrap;
+        div{
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+
+  #blog{
+    div{
+      flex-wrap: wrap;
+      align-items: flex-end;
+      .blog__title{
+        flex-direction: column;
+        width: 100%;
+        margin: 0% 0% 7% 0%;
+        align-items: flex-end;
+      }
+      .blog__subtitle{
+        .card{
+          .card-body{
+            align-items: flex-start;
+            .card-body-info{
+              align-items: flex-start;
+            }
+          }
         }
       }
     }

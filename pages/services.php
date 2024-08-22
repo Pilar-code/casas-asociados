@@ -63,8 +63,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample0" style="">
+                    <div class="collapse move" id="collapseExample0" style="">
                         <div class="card-body">
                             Las obligaciones fiscales
                             <br>de manera eficiente y segura, cumpliendo con
@@ -98,7 +97,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
             </div>
@@ -110,8 +110,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample1" style="">
+                    <div class="collapse move" id="collapseExample1" style="">
                         <div class="card-body">
                             La gestión financiera
                             <br>de la empresa para cumplir las normativas
@@ -145,7 +144,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>
@@ -157,8 +157,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample2" style="">
+                    <div class="collapse move" id="collapseExample2" style="">
                         <div class="card-body">
                             La administración de los
                             <br>recursos humanos desde el derecho laboral y
@@ -187,7 +186,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>
@@ -199,8 +199,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample3" style="">
+                    <div class="collapse move" id="collapseExample3" style="">
                         <div class="card-body">
                             Todos los aspectos
                             <br>legales y administrativos del negocio en sus
@@ -227,7 +226,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>
@@ -239,8 +239,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample4" style="">
+                    <div class="collapse move" id="collapseExample4" style="">
                         <div class="card-body">
                             Todos los aspectos
                             <br>legales y administrativos de particulares y
@@ -271,7 +270,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>
@@ -283,8 +283,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample5" style="">
+                    <div class="collapse move" id="collapseExample5" style="">
                         <div class="card-body">
                             Ir un paso más allá y
                             <br>trazar una estrategia que impulse tu negocio.
@@ -304,7 +303,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>
@@ -319,8 +319,7 @@
                     <p class="d-inline-flex gap-1">
                         Nos encargamos de…
                     </p>
-                    <br>
-                    <div class="collapse" id="collapseExample6" style="">
+                    <div class="collapse move" id="collapseExample6" style="">
                         <div class="card-body">
                             Todos los aspectos
                             legales y administrativos de particulares y
@@ -349,7 +348,8 @@
                             </div>
                         </div>
                     </div>
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img src="../img/icons8-atrás-60.png" alt="">
                         ver mas..
                     </a>
                 </div>

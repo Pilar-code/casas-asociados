@@ -12460,16 +12460,20 @@ header #nav ul li a:hover {
   align-items: center;
   flex-wrap: nowrap;
 }
+#quienes-somos .team .team__display {
+  display: flex;
+}
 #quienes-somos .team .team__position {
   display: flex;
   justify-content: space-evenly;
   width: 85%;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 #quienes-somos .team .team__position .team-member {
   width: 200px;
+  margin-bottom: 2rem;
 }
 #quienes-somos .team .team__position .team-member p {
   font: 1.2rem;
@@ -12487,6 +12491,535 @@ header #nav ul li a:hover {
 }
 
 /* FIN ABOUT US */
+/* SERVICES */
+#services {
+  background-color: #f1efe8;
+  padding: 3% 0% 15% 0%;
+}
+#services div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 3% 2%;
+  justify-content: space-evenly;
+}
+#services div .services__title {
+  flex-direction: column;
+  width: 25%;
+  margin: 0px;
+}
+#services div .services__title h5, #services div .services__title .h5 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+}
+#services div .services__title hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 100%;
+}
+#services div .services__title img {
+  width: 15rem;
+  margin-top: 2rem;
+}
+#services div .services__subtitle {
+  margin: 0px;
+  width: 37%;
+}
+#services div .services__subtitle h2, #services div .services__subtitle .h2 {
+  width: 100%;
+  font-size: 55px;
+  font-weight: 300;
+}
+#services div .services__example {
+  margin: 0px;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+#services div .services__example p {
+  font-size: 1rem;
+}
+
+#detalle nav {
+  background-color: #ef3757;
+  color: #fff;
+}
+#detalle nav ul li a {
+  color: #fff;
+}
+#detalle .detalle__opciones {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#detalle .detalle__opciones div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+#detalle .detalle__opciones div img {
+  width: 50%;
+}
+#detalle .detalle__opciones #fiscal {
+  flex-direction: row;
+}
+#detalle .detalle__opciones #fiscal div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #fiscal div h3, #detalle .detalle__opciones #fiscal div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #fiscal div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #fiscal div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #fiscal div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #fiscal div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #fiscal div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #fiscal div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #fiscal div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #fiscal div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #fiscal div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #contable {
+  flex-direction: row-reverse;
+}
+#detalle .detalle__opciones #contable div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #contable div h3, #detalle .detalle__opciones #contable div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #contable div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #contable div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #contable div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #contable div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #contable div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #contable div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #contable div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #contable div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #contable div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #laboral {
+  flex-direction: row;
+}
+#detalle .detalle__opciones #laboral div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #laboral div h3, #detalle .detalle__opciones #laboral div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #laboral div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #laboral div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #laboral div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #laboral div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #laboral div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #laboral div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #laboral div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #laboral div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #laboral div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #mercantil {
+  flex-direction: row-reverse;
+}
+#detalle .detalle__opciones #mercantil div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #mercantil div h3, #detalle .detalle__opciones #mercantil div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #mercantil div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #mercantil div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #mercantil div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #mercantil div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #mercantil div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #mercantil div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #mercantil div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #mercantil div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #mercantil div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #administrativa {
+  flex-direction: row;
+}
+#detalle .detalle__opciones #administrativa div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #administrativa div h3, #detalle .detalle__opciones #administrativa div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #administrativa div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #administrativa div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #administrativa div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #administrativa div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #administrativa div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #administrativa div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #administrativa div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #administrativa div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #administrativa div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #consultoria {
+  flex-direction: row-reverse;
+}
+#detalle .detalle__opciones #consultoria div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #consultoria div h3, #detalle .detalle__opciones #consultoria div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #consultoria div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #consultoria div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #consultoria div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #consultoria div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #consultoria div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #consultoria div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #consultoria div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #consultoria div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #consultoria div .arrow img {
+  width: 1.5rem;
+}
+#detalle .detalle__opciones #otros {
+  flex-direction: row;
+}
+#detalle .detalle__opciones #otros div {
+  margin: 2rem 4rem;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #otros div h3, #detalle .detalle__opciones #otros div .h3 {
+  font-size: 3rem;
+}
+#detalle .detalle__opciones #otros div p {
+  font-size: 1.5rem;
+}
+#detalle .detalle__opciones #otros div .move {
+  margin: 0px;
+  flex-direction: column;
+}
+#detalle .detalle__opciones #otros div .move .card-body {
+  margin: 0px;
+}
+#detalle .detalle__opciones #otros div .move .card-example {
+  flex-direction: column;
+  margin: 0px;
+}
+#detalle .detalle__opciones #otros div .move .card-example .card-example-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 5px 0px;
+}
+#detalle .detalle__opciones #otros div .move .card-example .card-example-options img {
+  width: 25px;
+  margin-right: 1rem;
+}
+#detalle .detalle__opciones #otros div .move .card-example .card-example-options p {
+  font-size: 1rem;
+  margin: 0px;
+}
+#detalle .detalle__opciones #otros div .arrow {
+  text-decoration: none;
+  color: #000000;
+}
+#detalle .detalle__opciones #otros div .arrow img {
+  width: 1.5rem;
+}
+
+/* FIN DE SERVICES */
+/* ACTUALIDAD */
+#actualidad {
+  background-color: #f1efe8;
+  padding: 3% 0% 3% 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#actualidad .actualidad__title {
+  flex-direction: column;
+  width: 30%;
+  margin: 0px;
+}
+#actualidad .actualidad__title h5, #actualidad .actualidad__title .h5 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+#actualidad .actualidad__title hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 100%;
+}
+#actualidad .actualidad__title img {
+  width: 15rem;
+  margin-top: 2rem;
+}
+#actualidad .actualidad__subtitle {
+  margin: 0px;
+  width: 60%;
+}
+#actualidad .actualidad__subtitle h2, #actualidad .actualidad__subtitle .h2 {
+  margin-bottom: 10%;
+  font-size: 55px;
+}
+#actualidad .actualidad__subtitle div {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 15px 0px;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+#actualidad .actualidad__subtitle div p {
+  margin: 0px 0px 0px 20px;
+}
+#actualidad .actualidad__subtitle .actualidad__points {
+  display: flex;
+}
+
+#blog {
+  padding: 4% 0% 4% 0%;
+  text-align: -webkit-center;
+}
+#blog hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 100%;
+}
+#blog div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 3% 2%;
+  justify-content: space-evenly;
+}
+#blog div .blog__title {
+  flex-direction: column;
+  width: 20%;
+  margin: 0px;
+}
+#blog div .blog__title h5, #blog div .blog__title .h5 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+}
+#blog div .blog__title hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 80%;
+}
+#blog div .blog__title a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+#blog div .blog__title a img {
+  width: 1.5rem;
+}
+#blog div .blog__subtitle {
+  margin: 0px;
+  width: 70%;
+}
+#blog div .blog__subtitle .card {
+  width: 24rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+#blog div .blog__subtitle .card .card-body {
+  flex-direction: column;
+}
+#blog div .blog__subtitle .card .card-body hr {
+  margin: 3px 0px;
+  opacity: inherit;
+  box-shadow: none;
+  color: #000000;
+  width: 100%;
+}
+#blog div .blog__subtitle .card .card-body .card-body-info {
+  display: flex;
+  flex-direction: column;
+}
+#blog div .blog__subtitle .card .card-body .card-body-info .card-title {
+  color: #ef3757;
+}
+#blog div .blog__subtitle .card .card-body .card-body-info .card-text {
+  text-align: left;
+}
+#blog div .blog__subtitle .card .card-body .card-body-info .arrow {
+  color: #000000;
+  text-decoration: none;
+}
+#blog div .blog__subtitle .card .card-body .card-body-info .arrow img {
+  width: 1.5rem;
+}
+
+/* FIN DE ACTUALIDAD */
 footer {
   background-color: #000000;
   color: white;
@@ -12679,6 +13212,20 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 4rem 0rem 0rem 0rem;
     width: 50%;
   }
+  #services div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 45%;
+  }
+  #services div .services__subtitle {
+    width: 45%;
+  }
+  #services div .services__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 1030px) and (min-width: 850px) {
   #carouselExampleIndicators .carousel-inner .carousel-item p {
@@ -12862,6 +13409,32 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     width: 50%;
   }
   #about div .about__example p {
+    font-size: 0.9rem;
+  }
+  #services div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 45%;
+  }
+  #services div .services__title h5, #services div .services__title .h5 {
+    font-size: 1.4rem;
+  }
+  #services div .services__title img {
+    width: 13rem;
+  }
+  #services div .services__subtitle {
+    width: 45%;
+  }
+  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
+    font-size: 45px;
+  }
+  #services div .services__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 50%;
+  }
+  #services div .services__example p {
     font-size: 0.9rem;
   }
   footer .footer__marca div .footer__logo .footer__logo__info {
@@ -13086,7 +13659,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0px;
     opacity: inherit;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #contacto .contacto__subtitle {
@@ -13135,7 +13708,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #about div .about__title img {
@@ -13154,6 +13727,286 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #about div .about__example p {
     font-size: 0.9rem;
+  }
+  #quienes-somos .img {
+    position: relative;
+    bottom: 120px;
+  }
+  #services div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #services div .services__title h5, #services div .services__title .h5 {
+    font-size: 1.4rem;
+  }
+  #services div .services__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #services div .services__title img {
+    width: 13rem;
+  }
+  #services div .services__subtitle {
+    width: 100%;
+  }
+  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
+    font-size: 45px;
+    margin-top: 3rem;
+  }
+  #services div .services__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 80%;
+  }
+  #services div .services__example p {
+    font-size: 0.9rem;
+  }
+  #detalle nav .sub__nav li a {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #fiscal div h3, #detalle .detalle__opciones #fiscal div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #fiscal div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #contable div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #contable div h3, #detalle .detalle__opciones #contable div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #contable div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #contable div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #laboral div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #laboral div h3, #detalle .detalle__opciones #laboral div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #laboral div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #laboral div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #mercantil div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #mercantil div h3, #detalle .detalle__opciones #mercantil div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #mercantil div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #administrativa div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #administrativa div h3, #detalle .detalle__opciones #administrativa div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #administrativa div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #consultoria div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #consultoria div h3, #detalle .detalle__opciones #consultoria div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #consultoria div .arrow {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #otros div {
+    margin: 1rem 2rem;
+  }
+  #detalle .detalle__opciones #otros div h3, #detalle .detalle__opciones #otros div .h3 {
+    font-size: 1.5rem;
+  }
+  #detalle .detalle__opciones #otros div p {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-body {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #otros div .arrow {
+    font-size: 0.8rem;
+  }
+  #actualidad {
+    flex-wrap: wrap;
+    padding: 3% 6%;
+  }
+  #actualidad .actualidad__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #actualidad .actualidad__title h5, #actualidad .actualidad__title .h5 {
+    font-size: 1.4rem;
+  }
+  #actualidad .actualidad__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #actualidad .actualidad__title img {
+    width: 13rem;
+  }
+  #actualidad .actualidad__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  #actualidad .actualidad__subtitle h2, #actualidad .actualidad__subtitle .h2 {
+    font-size: 45px;
+    margin-bottom: 2.9rem;
+  }
+  #actualidad .actualidad__subtitle div {
+    font-size: 1rem;
+  }
+  #blog div {
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  #blog div .blog__title {
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 0% 7% 0%;
+    align-items: flex-end;
+  }
+  #blog div .blog__subtitle .card .card-body {
+    align-items: flex-start;
+  }
+  #blog div .blog__subtitle .card .card-body .card-body-info {
+    align-items: flex-start;
   }
   footer {
     display: flex;
@@ -13250,7 +14103,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #servicios .servicios__title img {
@@ -13294,7 +14147,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #plan div .plan__title img {
@@ -13370,6 +14223,10 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     width: 100%;
     margin: 0px;
   }
+  #quienes-somos .img {
+    position: relative;
+    bottom: 70px;
+  }
   #contacto {
     flex-wrap: wrap;
     margin: 3% 6%;
@@ -13389,7 +14246,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0px;
     opacity: inherit;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #contacto .contacto__subtitle {
@@ -13438,7 +14295,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #about div .about__title img {
@@ -13457,6 +14314,307 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #about div .about__example p {
     font-size: 0.8rem;
+  }
+  #quienes-somos .img {
+    position: relative;
+    bottom: 85px;
+  }
+  #services div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #services div .services__title h5, #services div .services__title .h5 {
+    font-size: 1rem;
+  }
+  #services div .services__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #services div .services__title img {
+    width: 10rem;
+  }
+  #services div .services__subtitle {
+    width: 100%;
+  }
+  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  #services div .services__example {
+    margin: 4rem 0rem 0rem 0rem;
+    width: 90%;
+  }
+  #services div .services__example p {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #fiscal div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #fiscal div h3, #detalle .detalle__opciones #fiscal div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #fiscal div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #fiscal div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #contable div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #contable div h3, #detalle .detalle__opciones #contable div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #contable div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #contable div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #contable div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #laboral div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #laboral div h3, #detalle .detalle__opciones #laboral div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #laboral div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #laboral div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #laboral div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div h3, #detalle .detalle__opciones #mercantil div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #mercantil div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #mercantil div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div h3, #detalle .detalle__opciones #administrativa div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #administrativa div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #administrativa div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div h3, #detalle .detalle__opciones #consultoria div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #consultoria div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #consultoria div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #otros div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #otros div h3, #detalle .detalle__opciones #otros div .h3 {
+    font-size: 1rem;
+  }
+  #detalle .detalle__opciones #otros div p {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-body {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #otros div .arrow {
+    font-size: 0.7rem;
+  }
+  #detalle .detalle__opciones #otros div .arrow img {
+    width: 1rem;
+  }
+  #actualidad {
+    flex-wrap: wrap;
+    padding: 3% 6%;
+  }
+  #actualidad .actualidad__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #actualidad .actualidad__title h5, #actualidad .actualidad__title .h5 {
+    font-size: 1rem;
+  }
+  #actualidad .actualidad__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #actualidad .actualidad__title img {
+    width: 10rem;
+  }
+  #actualidad .actualidad__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  #actualidad .actualidad__subtitle h2, #actualidad .actualidad__subtitle .h2 {
+    font-size: 35px;
+    margin-bottom: 2rem;
+  }
+  #actualidad .actualidad__subtitle div {
+    font-size: 1rem;
+  }
+  #actualidad .actualidad__subtitle .actualidad__points {
+    flex-wrap: wrap;
+  }
+  #blog div {
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  #blog div .blog__title {
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 0% 7% 0%;
+    align-items: flex-end;
+  }
+  #blog div .blog__subtitle .card .card-body {
+    align-items: flex-start;
+  }
+  #blog div .blog__subtitle .card .card-body .card-body-info {
+    align-items: flex-start;
   }
   footer {
     display: flex;
@@ -13556,7 +14714,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #servicios .servicios__title img {
@@ -13607,7 +14765,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #plan div .plan__title img {
@@ -13683,6 +14841,10 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     width: 100%;
     margin: 0px;
   }
+  #quienes-somos .img {
+    position: relative;
+    bottom: 60px;
+  }
   #contacto {
     flex-wrap: wrap;
     margin: 3% 6%;
@@ -13702,7 +14864,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0px;
     opacity: inherit;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #contacto .contacto__subtitle {
@@ -13743,7 +14905,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    color: black;
+    color: #000000;
   }
   #contacto .contacto__form .contacto__form__checkbox div p {
     margin-top: 0;
@@ -13768,7 +14930,7 @@ footer .footer__links .footer__links__column .footer__links__column__social {
     margin: 3px 0%;
     opacity: 100%;
     box-shadow: none;
-    color: black;
+    color: #000000;
     width: 60%;
   }
   #about div .about__title img {
@@ -13787,6 +14949,312 @@ footer .footer__links .footer__links__column .footer__links__column__social {
   }
   #about div .about__example p {
     font-size: 0.6rem;
+  }
+  #services div {
+    flex-wrap: wrap;
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #services div .services__title h5, #services div .services__title .h5 {
+    font-size: 0.8rem;
+  }
+  #services div .services__title hr {
+    margin: 3px 0%;
+    opacity: 100%;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #services div .services__title img {
+    width: 8rem;
+  }
+  #services div .services__subtitle {
+    width: 100%;
+  }
+  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+  #services div .services__example {
+    margin: 2rem 0rem 0rem 0rem;
+    width: 99%;
+  }
+  #services div .services__example p {
+    font-size: 0.6rem;
+  }
+  #detalle nav .sub__nav li {
+    font-size: 0.6rem;
+  }
+  #detalle nav .sub__nav li a {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #fiscal div h3, #detalle .detalle__opciones #fiscal div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #fiscal div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #fiscal div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #fiscal div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #contable div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #contable div h3, #detalle .detalle__opciones #contable div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #contable div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #contable div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #contable div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #contable div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #laboral div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #laboral div h3, #detalle .detalle__opciones #laboral div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #laboral div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #laboral div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #laboral div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #laboral div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #mercantil div h3, #detalle .detalle__opciones #mercantil div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #mercantil div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #mercantil div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #mercantil div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #administrativa div h3, #detalle .detalle__opciones #administrativa div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #administrativa div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #administrativa div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #administrativa div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #consultoria div h3, #detalle .detalle__opciones #consultoria div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #consultoria div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #consultoria div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #consultoria div .arrow img {
+    width: 1rem;
+  }
+  #detalle .detalle__opciones #otros div {
+    margin: 0.5rem 1rem;
+  }
+  #detalle .detalle__opciones #otros div h3, #detalle .detalle__opciones #otros div .h3 {
+    font-size: 0.8rem;
+  }
+  #detalle .detalle__opciones #otros div p {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-body {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options {
+    margin: 0px 0px 5px 0px;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options img {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5rem;
+  }
+  #detalle .detalle__opciones #otros div .move .card-example .card-example-options p {
+    font-size: 0.5rem;
+  }
+  #detalle .detalle__opciones #otros div .arrow {
+    font-size: 0.6rem;
+  }
+  #detalle .detalle__opciones #otros div .arrow img {
+    width: 1rem;
+  }
+  #actualidad {
+    flex-wrap: wrap;
+    padding: 3% 6%;
+  }
+  #actualidad .actualidad__title {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #actualidad .actualidad__title h5, #actualidad .actualidad__title .h5 {
+    font-size: 0.8rem;
+  }
+  #actualidad .actualidad__title hr {
+    margin: 3px 0px;
+    opacity: inherit;
+    box-shadow: none;
+    color: #000000;
+    width: 60%;
+  }
+  #actualidad .actualidad__title img {
+    width: 8rem;
+  }
+  #actualidad .actualidad__subtitle {
+    margin: 0px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #actualidad .actualidad__subtitle h2, #actualidad .actualidad__subtitle .h2 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  #actualidad .actualidad__subtitle div {
+    font-size: 0.7rem;
+  }
+  #actualidad .actualidad__subtitle .actualidad__points {
+    flex-wrap: wrap;
+  }
+  #actualidad .actualidad__subtitle .actualidad__points div {
+    margin-right: 25px;
+  }
+  #blog div {
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  #blog div .blog__title {
+    flex-direction: column;
+    width: 100%;
+    margin: 0% 0% 7% 0%;
+    align-items: flex-end;
+  }
+  #blog div .blog__subtitle .card .card-body {
+    align-items: flex-start;
+  }
+  #blog div .blog__subtitle .card .card-body .card-body-info {
+    align-items: flex-start;
   }
   footer {
     display: flex;
