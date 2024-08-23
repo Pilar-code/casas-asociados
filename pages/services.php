@@ -3,27 +3,28 @@
 <section id="services">
     <div>
         <div class="services__title">
-                <h5>QUIÉNES SOMOS</h5>
+                <h5>SERVICIOS</h5>
                 <hr>
                 <img src="../img/detalle.png" alt="">
             </div>
             <div class="services__subtitle">
-                <h2>Juntos
+                <h2>Huimos de los
+                    <br>estándares,
                     <br>trabajamos
-                    <br>cada día
-                    <br>para brindar
-                    <br>soluciones
-                    <br>eficientes y
-                    <br>personalizadas
+                    <br>planes
+                    <br>personalizados
+                    <br>para cada
+                    <br>negocio.
                 </h2>
             </div>
             <div class="services__example">
                 <p>
-                    En Casas & Asociados aunamos una dilatada
-                    experiencia como asesores y consultores de
-                    grandes empresas, pymes y autónomos, con
-                    jóvenes incorporaciones formados con las
-                    últimas reformas legislativas. 
+                    En Casas & Asociados somos expertos en
+                    asesorar a grandes empresas, pymes y
+                    autónomos sobre lo que realmente necesitan.
+                    Conocemos a cada cliente y le brindamos las
+                    soluciones más eficaces para las necesidades
+                    de gestión de su empresa.
                 </p>
             </div>
         </div>
