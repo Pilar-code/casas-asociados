@@ -1,0 +1,145 @@
+
+/* ACTUALIDAD */
+#actualidad{
+    background-color: #f1efe8;
+    padding: 3% 0% 3% 0%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .actualidad__title{
+      flex-direction: column;
+      width: 30%;
+      margin: 0px;
+      h5{
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: $primary-color;
+        width: 100%;
+      }
+      img{
+        width: 15rem;
+        margin-top: 2rem;
+      }
+    }
+    .actualidad__subtitle{
+      margin: 0px;
+      width: 60%;
+      h2{
+        margin-bottom: 10%;
+        font-size: 55px;
+      }
+      div{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 15px 0px;
+        font-size: 1.2rem;
+        text-decoration: underline;
+        p{
+          margin: 0px 0px 0px 10px;
+        }
+      }
+      .actualidad__points{
+        display: flex;
+        div{
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+  #blog{
+    padding: 4% 0% 4% 0%;
+    text-align: -webkit-center;
+    hr{
+      margin: 3px 0px;
+      opacity: inherit;
+      box-shadow: none;
+      color: $primary-color;
+      width: 100%;
+    }
+    div{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      flex-direction: row;
+      margin: 3% 2%;
+      justify-content: space-evenly;
+      .blog__title{
+        flex-direction: column;
+        width: 20%;
+        margin: 0px;
+        h5{
+          font-size: 2rem;
+          font-weight: 800;
+          margin: 0px;
+          padding: 0px;
+        }
+        hr{
+          margin: 3px 0px;
+          opacity: inherit;
+          box-shadow: none;
+          color: $primary-color;
+          width: 80%;
+        }
+        a{
+          color: $primary-color;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          margin-top: 1rem;
+          img{
+            width: 1.5rem;
+          }
+        }
+      }
+      .blog__subtitle{
+        margin: 0px;
+        width: 70%;
+        .card{
+          border: none;
+          width: 24rem;
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 40px;
+          .card-body{
+            flex-direction: column;
+            hr{
+              margin: 3px 0px;
+              opacity: inherit;
+              box-shadow: none;
+              color: $primary-color;
+              width: 100%;
+            }
+            .card-body-info{
+              display: flex;
+              flex-direction: column;
+              .card-title{
+                color: $pink-color;
+              }
+              h5{
+                text-align: start;
+              }
+              .card-text{
+                text-align: left;
+              }
+              .arrow{
+                color: $primary-color;
+                text-decoration: none;
+                img{
+                  width: 1.5rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /* FIN DE ACTUALIDAD */

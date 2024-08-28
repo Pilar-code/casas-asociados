@@ -1,0 +1,241 @@
+/* INDEX */
+
+#carousel-large{
+    display: block;
+    #carouselExampleIndicators{
+      .carousel-inner{
+        .carousel-item{
+          margin: none;
+          p{
+            /* font-size: 1.3rem;
+            position: absolute;
+            bottom: 44%;
+            left: 25%;
+            color: white;
+            margin: 0px; */
+            font-size: 2.5rem;
+            font-family: $fontMinion;
+            position: absolute;
+            bottom: 44%;
+            left: 29%;
+            color: white;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  
+  #carousel-small{
+    display:none;
+  }
+  
+  #servicios{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 3% 2%;
+    .servicios__title{
+        width: 25%;
+      h5{
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+      }
+      hr{
+        margin: 3px 0px;
+        opacity: inherit;
+        box-shadow: none;
+        color: $primary-color;
+      }
+      img{
+        width: 15rem;
+        margin-top: 2rem;
+      }
+    }
+    .servicios__subtitle{
+      width: 22%;
+      h2{
+        width: 100%;
+        font-size: 55px;
+        font-weight: 300;
+        font-family: $fontLight;
+      }
+    }
+    .servicios__example{
+      width: 30%;
+      p{
+        font-size: 1.5rem;
+      }
+      .servicios__btn{
+        background-color: $pink-color;
+        border-color: $pink-color;
+        color: white;
+        height: 65px;
+        width: 190px;
+        font-size: 1.5rem;
+        :hover{
+          background-color: #d8314d;
+          border-color: #d8314d;
+          color: white;
+          height: 65px;
+          width: 190px;
+        }
+        a{
+          color: white;
+          text-decoration: none;
+          :hover{
+            background-color: #d43281;
+            border-color: #d43281;
+          }
+        }
+      }
+    }
+    .servicios__points{
+      color: #f23791;
+      font-size: 1.5rem;
+      font-weight: 100;
+      p{
+        color: $pink-color;
+        font-family: $fontBold;
+      }
+      div{
+        color: $pink-color;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: underline;
+        ul{
+          color: $pink-color;
+          li{
+            color: $pink-color;
+            list-style:disc;
+          }
+        }
+      }
+    }
+  }
+  #plan{
+    background-color: #f1efe8;
+    padding: 3% 0%;
+    div{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      flex-direction: row;
+      margin: 3% 2%;
+      justify-content: space-evenly;
+      .plan__title{
+        flex-direction: column;
+        width: 25%;
+        margin: 0px;
+        h5{
+          font-size: 2rem;
+          font-weight: 800;
+          margin: 0px;
+          padding: 0px;
+        }
+        hr{
+          margin: 3px 0px;
+          opacity: inherit;
+          box-shadow: none;
+          color: $primary-color;
+          width: 100%;
+        }
+        img{
+          width: 15rem;
+          margin-top: 2rem;
+        }
+      }
+      .plan__subtitle{
+        margin: 0px;
+        width: 22%;
+        h2{
+          width: 100%;
+          font-size: 55px;
+          font-weight: 300;
+        }
+      }
+      .plan__example{
+        margin: 0px;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        p{
+          font-size: 1.5rem;
+        }
+      }
+    }
+    .plan__points{
+          display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      div{
+        display: flex;
+        margin: 0%;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+          .plan__points__box{
+            margin: 2%;
+            padding: 0%;
+            height: 100%;
+            width: 100%;
+            position: relative;
+          }
+        div{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          background-color: white;
+          margin: 0px;
+          height: 200px;
+        }
+        .plan__points__img{
+          height: 100%;
+          width: 50%;
+          position: relative;
+        }
+        .plan__points__text{
+          padding: 3%;
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: flex-start;
+          margin: 0%;
+          height: 100%;
+          width: 50%;
+          position: relative;
+          flex-direction: column;
+          justify-content: flex-start;
+          h3{
+            padding-bottom: 5%;
+            width: 100%;
+            margin: 0px;
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+          p{
+            font-size: 0.9rem;
+            width: 100%;
+            margin: 0px;
+            position: relative;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+/* FIN INDEX */  

@@ -11980,6 +11980,11 @@ textarea.form-control-lg {
   src: url("../../fonts/Poppins-Bold.ttf") format("woff");
   font-style: normal;
 }
+@font-face {
+  font-family: "minionPro";
+  src: url("../../fonts/MinionPro-Regular.otf") format("woff");
+  font-style: normal;
+}
 * {
   font-family: poppins;
   color: #000000;
@@ -11991,77 +11996,6 @@ body {
   padding: 0;
 }
 
-/* HEADER */
-header {
-  color: #000000;
-  padding: 10px 0;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: auto;
-}
-header .logo {
-  margin-left: 20px;
-}
-header .logo img {
-  height: 50px;
-}
-header #nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-header #nav ul li {
-  margin-left: 20px;
-  font-size: 1rem;
-  margin-right: 20px;
-}
-header #nav ul li .nav-link {
-  display: flex;
-  align-items: center;
-}
-header #nav ul li .nav-link .nav__logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-left: 10px;
-}
-header #nav ul li .nav-link .nav__logo img {
-  width: 150px;
-}
-header #nav ul li .nav-link .nav__logo .nav__logo__title {
-  height: 24px;
-  font-family: poppins-bold;
-  font-size: x-large;
-  margin: 0px;
-  font-weight: 700;
-}
-header #nav ul li .nav-link .nav__logo .nav__logo__subtitle {
-  font-family: poppins;
-  font-size: small;
-  margin: 0px;
-}
-header #nav ul li a {
-  color: #000000;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-header #nav ul li a:hover {
-  color: #555;
-}
-
-#nav__small {
-  display: none;
-}
-
-/* FIN HEADER */
 /* INDEX */
 #carousel-large {
   display: block;
@@ -12077,6 +12011,7 @@ header #nav ul li a:hover {
   color: white;
   margin: 0px; */
   font-size: 2.5rem;
+  font-family: minionPro;
   position: absolute;
   bottom: 44%;
   left: 29%;
@@ -12116,32 +12051,34 @@ header #nav ul li a:hover {
   margin-top: 2rem;
 }
 #servicios .servicios__subtitle {
-  width: 35%;
+  width: 22%;
 }
 #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
   width: 100%;
   font-size: 55px;
   font-weight: 300;
+  font-family: poppins-light;
 }
 #servicios .servicios__example {
   width: 30%;
 }
 #servicios .servicios__example p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 #servicios .servicios__example .servicios__btn {
   background-color: #ef3757;
   border-color: #ef3757;
   color: white;
-  height: 40px;
-  width: 150px;
+  height: 65px;
+  width: 190px;
+  font-size: 1.5rem;
 }
 #servicios .servicios__example .servicios__btn :hover {
   background-color: #d8314d;
   border-color: #d8314d;
   color: white;
-  height: 40px;
-  width: 150px;
+  height: 65px;
+  width: 190px;
 }
 #servicios .servicios__example .servicios__btn a {
   color: white;
@@ -12153,7 +12090,7 @@ header #nav ul li a:hover {
 }
 #servicios .servicios__points {
   color: #f23791;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 100;
 }
 #servicios .servicios__points p {
@@ -12210,7 +12147,7 @@ header #nav ul li a:hover {
 }
 #plan div .plan__subtitle {
   margin: 0px;
-  width: 37%;
+  width: 22%;
 }
 #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
   width: 100%;
@@ -12224,7 +12161,7 @@ header #nav ul li a:hover {
   align-items: center;
 }
 #plan div .plan__example p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 #plan .plan__points {
   display: flex;
@@ -12234,19 +12171,25 @@ header #nav ul li a:hover {
   justify-content: center;
   margin: 0px;
   width: 100%;
+  height: 100%;
+  position: relative;
 }
 #plan .plan__points div {
   display: flex;
   margin: 0%;
   flex-direction: row;
   align-items: center;
-  width: 80%;
+  width: 100%;
   justify-content: center;
+  height: 100%;
+  position: relative;
 }
 #plan .plan__points div .plan__points__box {
-  margin: 1%;
+  margin: 2%;
   padding: 0%;
   height: 100%;
+  width: 100%;
+  position: relative;
 }
 #plan .plan__points div div {
   display: flex;
@@ -12259,16 +12202,21 @@ header #nav ul li a:hover {
   height: 200px;
 }
 #plan .plan__points div .plan__points__img {
-  width: 200px;
+  height: 100%;
+  width: 50%;
+  position: relative;
 }
 #plan .plan__points div .plan__points__text {
   padding: 3%;
   display: flex;
-  flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-  justify-content: flex-start;
   margin: 0%;
+  height: 100%;
+  width: 50%;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
   padding-bottom: 5%;
@@ -12281,6 +12229,8 @@ header #nav ul li a:hover {
   font-size: 0.9rem;
   width: 100%;
   margin: 0px;
+  position: relative;
+  height: 100%;
 }
 
 #contacto {
@@ -12309,7 +12259,7 @@ header #nav ul li a:hover {
 }
 #contacto .contacto__subtitle {
   margin: 0px;
-  width: 37%;
+  width: 22%;
 }
 #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
   margin-bottom: 10%;
@@ -12434,7 +12384,7 @@ header #nav ul li a:hover {
 }
 #about div .about__subtitle {
   margin: 0px;
-  width: 37%;
+  width: 22%;
 }
 #about div .about__subtitle h2, #about div .about__subtitle .h2 {
   width: 100%;
@@ -12448,7 +12398,7 @@ header #nav ul li a:hover {
   align-items: center;
 }
 #about div .about__example p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #quienes-somos .img {
@@ -12534,7 +12484,7 @@ header #nav ul li a:hover {
 }
 #services div .services__subtitle {
   margin: 0px;
-  width: 37%;
+  width: 22%;
 }
 #services div .services__subtitle h2, #services div .services__subtitle .h2 {
   width: 100%;
@@ -12548,12 +12498,21 @@ header #nav ul li a:hover {
   align-items: center;
 }
 #services div .services__example p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+
+#colcollapseExample0 {
+  display: none;
 }
 
 #detalle nav {
   background-color: #ef3757;
   color: #fff;
+  height: 70px;
+}
+#detalle nav ul {
+  align-items: center;
+  font-size: 1.5rem;
 }
 #detalle nav ul li a {
   color: #fff;

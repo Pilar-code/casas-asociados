@@ -1,0 +1,402 @@
+
+/* SERVICES */
+#services{
+    background-color: #f1efe8;
+    padding: 3% 0% 15% 0%;
+    div{
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      flex-direction: row;
+      margin: 3% 2%;
+      justify-content: space-evenly;
+      .services__title{
+        flex-direction: column;
+        width: 25%;
+        margin: 0px;
+        h5{
+          font-size: 2rem;
+          font-weight: 800;
+          margin: 0px;
+          padding: 0px;
+        }
+        hr{
+          margin: 3px 0px;
+          opacity: inherit;
+          box-shadow: none;
+          color: $primary-color;
+          width: 100%;
+        }
+        img{
+          width: 15rem;
+          margin-top: 2rem;
+        }
+      }
+      .services__subtitle{
+        margin: 0px;
+        width: 22%;
+        h2{
+          width: 100%;
+          font-size: 55px;
+          font-weight: 300;
+        }
+      }
+      .services__example{
+        margin: 0px;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        p{
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  #colcollapseExample0{
+    display: none;
+  }
+  #detalle{
+    nav{
+      background-color: $pink-color;
+      color: $secondary-color;
+      height: 70px;
+      ul{
+        align-items: center;
+        font-size: 1.5rem;
+        li{
+          a{
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+    .detalle__opciones{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      div{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        img{
+          width: 50%;
+        }
+      }
+      #fiscal{
+        flex-direction: row;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #contable{
+        flex-direction: row-reverse;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #laboral{
+        flex-direction: row;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #mercantil{
+        flex-direction: row-reverse;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #administrativa{
+        flex-direction: row;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #consultoria{
+        flex-direction: row-reverse;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+      #otros{
+        flex-direction: row;
+        div{
+          margin: 2rem 4rem;
+          flex-direction: column;
+          h3{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.5rem;
+          }
+          .move{
+            margin: 0px;
+            flex-direction: column;
+            .card-body{
+              margin: 0px;
+            }
+            .card-example{
+              flex-direction: column;
+              margin: 0px;
+              .card-example-options{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 0px 5px 0px;
+                img{
+                  width: 25px;
+                  margin-right: 1rem;
+                }
+                p{
+                  font-size: 1rem;
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .arrow{
+            text-decoration: none;
+            color: $primary-color;
+            img{
+              width: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* FIN DE SERVICES */
