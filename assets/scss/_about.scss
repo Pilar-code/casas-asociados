@@ -39,6 +39,7 @@
           width: 100%;
           font-size: 55px;
           font-weight: 300;
+          font-family: $fontLight;
         }
       }
       .about__example{
@@ -78,8 +79,8 @@
         flex-direction: row;
         align-items: flex-start;
         .team-member{
-          width: 200px;
-          margin-bottom: 2rem;
+          width: 11rem;
+          margin: 2rem;
           p{
             font: 1.2rem;
           }

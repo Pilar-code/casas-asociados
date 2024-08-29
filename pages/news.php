@@ -55,7 +55,7 @@
                                 veriora voludestra tat C. Tum iam deto horei
                                 conem ficiocta, quam temove...
                             </p>
-                            <a class="arrow" href="../news/new.php" role="button">
+                            <a class="arrow" href="../news/article.php" role="button">
                                 <img src="../img/icons8-flecha-50.png" alt="">
                                 ver mas..
                             </a>

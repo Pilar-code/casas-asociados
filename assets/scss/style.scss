@@ -1,14 +1,3 @@
-// assets/scss/styles.scss
-@import "~bootstrap/scss/bootstrap";
-@import "header";
-@import "index";
-@import "about";
-@import "form";
-@import "services";
-@import "news";
-@import "blogs";
-@import "footer";
-@import "articles";
 
 //fonts
 @font-face {
@@ -46,6 +35,18 @@ $fontLight: poppins-light;
 $fontBold: poppins-bold;
 $fontMinion: minionPro;
 
+// assets/scss/styles.scss
+@import "~bootstrap/scss/bootstrap";
+@import "header";
+@import "index";
+@import "about";
+@import "form";
+@import "services";
+@import "news";
+@import "blogs";
+@import "footer";
+@import "articles";
+
 *{
   font-family: $font;
   color: $primary-color;
@@ -61,7 +62,7 @@ body {
 @media screen and (max-width: 1700px) and (min-width: 1270px) {
 
 }
-@media screen and (max-width: 1270px) and (min-width: 1180px) {
+@media screen and (max-width: 1600px) and (min-width: 1180px) {
   #plan{
     .plan__points{
       div{
@@ -71,7 +72,7 @@ body {
   } 
 }
 
-@media screen and (max-width: 1180px) and (min-width: 1030px) {
+@media screen and (max-width: 1600px) and (min-width: 1030px) {
 
   #servicios{
     margin: 3% 6%;

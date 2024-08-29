@@ -39,6 +39,7 @@
           width: 100%;
           font-size: 55px;
           font-weight: 300;
+          font-family: $fontLight;
         }
       }
       .services__example{
@@ -59,9 +60,9 @@
     nav{
       background-color: $pink-color;
       color: $secondary-color;
-      height: 70px;
       ul{
-        align-items: center;
+        height: 70px;
+        align-content: center;
         font-size: 1.5rem;
         li{
           a{

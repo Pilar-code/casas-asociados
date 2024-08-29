@@ -118,8 +118,7 @@
 <section id="servicios">
     <div class="servicios__title">
         <h5>SERVICIOS</h5>
-        <hr><!-- 
-        <img src="../img/detalle.png" alt=""> -->
+        <hr>
     </div>
     <div class="servicios__subtitle">
         <h2>Huimos de los 
