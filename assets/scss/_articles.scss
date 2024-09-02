@@ -1,5 +1,79 @@
 
+/* NAV */
+#header__blogs{
+  color: $primary-color;
+  background-color: $background-color;
+  padding: 10px 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  #nav__blogs{
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        margin-left: 20px;
+        font-size: 1rem;
+        margin-right: 20px;
+        .nav__blogs__link{
+          display: flex;
+          align-items: center;
+          .nav__blogs__logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-left: 10px;
+            img{
+              width: 150px;
+            }
+          }
+        }
+        a{
+          color: $primary-color;
+          text-decoration: none;
+          transition: color 0.3s;
+          &:hover {
+            color: $highlight-color;
+          }
+        }
+      }
+    }
+  }
+  #nav__blogs__small{
+    display:none
+  }
+}
+/* FIN NAV */
+
 /* CONTACT */
+#blog__img{
+  background-color: $background-color;
+  height: 500px;
+  margin-bottom: 15%;
+  hr{
+    box-shadow: none;
+    color: $primary-color;
+    width: 100%;
+    padding-top: 1rem;
+    opacity: 100;
+    margin: 0px;
+  }
+  img{
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
 #contact{
     background-color: $background-color;
     padding: 4% 0% 4% 0%;

@@ -1,8 +1,4 @@
 <?php include('../includes/header__blogs.php'); ?>
-<section id="blog__img">   
-    <hr>
-    <img src="../img/person-types-laptop-with-focus-hands-set-wooden-table-warm-light.jpg" alt="">
-</section>
 <section id="blog__example">
     <div>
         <div class="example__title">
