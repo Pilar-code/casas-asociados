@@ -14,7 +14,7 @@
         <nav id="nav__blogs">
             <ul>
                 <li>
-                    <a class="nav__blogs__link" href="index.php">
+                    <a class="nav__blogs__link" href="../pages/index.php">
                         <div class="nav__blogs__logo">
                             <img src="../img/logo-casas-y-asociados.png" alt=" ">
                         </div>
@@ -33,7 +33,7 @@
         <!-- NAV ALTERNATIVO PARA PANTALLAS MENORES -->
         <nav id="nav__blogs__small" class="navbar fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="../pages/index.php">
                     <img src="../img/logo-casas-y-asociados.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -46,10 +46,10 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul>
-                            <li><a class="nav-link active" aria-current="page" href="about.php">Quienes somos</a></li>
-                            <li><a class="nav-link" href="services.php">servicios</a></li>
-                            <li><a class="nav-link" href="news.php">Actualidad</a></li>
-                            <li><a class="nav-link" href="contact.php" tabindex="-1" aria-disabled="true">Contacto</a></li>
+                            <li><a class="nav-link active" aria-current="page" href="../pages/about.php">Quienes somos</a></li>
+                            <li><a class="nav-link" href="../pages/services.php">servicios</a></li>
+                            <li><a class="nav-link" href="../pages/news.php">Actualidad</a></li>
+                            <li><a class="nav-link" href="../pages/contact.php" tabindex="-1" aria-disabled="true">Contacto</a></li>
                             <li>
                                 <a href=""><img width="40" height="40" src="../img/icons8-linkedin-circled-50.png" alt=""></a>
                                 <a href=""><img width="27" height="27" src="../img/icons8-instagram-24.png" alt=""></a>

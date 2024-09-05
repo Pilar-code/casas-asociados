@@ -1,7 +1,7 @@
 <?php include('../includes/header__blogs.php'); ?>
 <section id="blog__img">   
     <hr>
-    <img src="../img/person-types-laptop-with-focus-hands-set-wooden-table-warm-light.jpg" alt="">
+    <img src="../img/side-view-woman-wheelchair-work.jpg" alt="">
 </section>
 <section id="blog__example">
     <div>
@@ -56,7 +56,7 @@
             </div>
             <div class="contact__subtitle">
                 <div class="card" style="width: 24rem;">
-                    <img src="../img/side-view-woman-wheelchair-work.jpg" class="card-img-top" alt="...">
+                    <img src="../img/person-types-laptop-with-focus-hands-set-wooden-table-warm-light.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6>LABORAL</h6>
                         <hr>
@@ -67,7 +67,7 @@
                                 veriora voludestra tat C. Tum iam deto horei
                                 conem ficiocta, quam temove...
                             </p>
-                            <a class="arrow" href="../news/article3.php" role="button">
+                            <a class="arrow" href="../news/article.php" role="button">
                                 <img src="../img/icons8-flecha-50.png" alt="">
                                 ver mas..
                             </a>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 24rem;">
-                    <img src="../img/medium-shot-people-working-as-real-estate-agents.jpg" class="card-img-top" alt="...">
+                    <img src="../img/captured-moments-impactful-business-realizations-strategic-implementations.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6>LABORAL</h6>
                         <hr>
@@ -86,7 +86,7 @@
                                 veriora voludestra tat C. Tum iam deto horei
                                 conem ficiocta, quam temove...
                             </p>
-                            <a class="arrow" href="../news/article4.php" role="button">
+                            <a class="arrow" href="../news/article2.php" role="button">
                                 <img src="../img/icons8-flecha-50.png" alt="">
                                 ver mas..
                             </a>

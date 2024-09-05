@@ -12148,17 +12148,20 @@ textarea.form-control-lg {
 header {
   color: #000000;
   padding: 10px 0;
-  height: 80px;
+  height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: auto;
+  width: 100%;
 }
 header .logo {
   margin-left: 20px;
 }
 header .logo img {
   height: 50px;
+}
+header #nav {
+  font-size: 22px;
 }
 header #nav ul {
   display: flex;
@@ -12223,12 +12226,14 @@ header #nav ul li a:hover {
   margin: none;
 }
 #carousel-large #carouselExampleIndicators .carousel-inner .carousel-item p {
+  font-weight: 600;
+  line-height: 100%;
   font-size: 2.5rem;
   font-family: minionPro;
   position: absolute;
-  bottom: 44%;
-  left: 29%;
-  color: white;
+  bottom: 50%;
+  left: 28%;
+  color: #fff;
   margin: 0px;
 }
 
@@ -12237,6 +12242,7 @@ header #nav ul li a:hover {
 }
 
 #servicios {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
@@ -12245,7 +12251,7 @@ header #nav ul li a:hover {
   margin: 3% 2%;
 }
 #servicios .servicios__title {
-  width: 25%;
+  width: 20%;
 }
 #servicios .servicios__title h5, #servicios .servicios__title .h5 {
   font-size: 2rem;
@@ -12264,7 +12270,7 @@ header #nav ul li a:hover {
   margin-top: 2rem;
 }
 #servicios .servicios__subtitle {
-  width: 22%;
+  width: 27%;
 }
 #servicios .servicios__subtitle h2, #servicios .servicios__subtitle .h2 {
   width: 100%;
@@ -12273,7 +12279,7 @@ header #nav ul li a:hover {
   font-family: poppins-light;
 }
 #servicios .servicios__example {
-  width: 30%;
+  width: 33%;
 }
 #servicios .servicios__example p {
   font-size: 1.5rem;
@@ -12327,8 +12333,12 @@ header #nav ul li a:hover {
 #plan {
   background-color: #f1efe8;
   padding: 3% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #plan div {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -12338,7 +12348,7 @@ header #nav ul li a:hover {
 }
 #plan div .plan__title {
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   margin: 0px;
 }
 #plan div .plan__title h5, #plan div .plan__title .h5 {
@@ -12360,7 +12370,7 @@ header #nav ul li a:hover {
 }
 #plan div .plan__subtitle {
   margin: 0px;
-  width: 22%;
+  width: 27%;
 }
 #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
   width: 100%;
@@ -12371,7 +12381,7 @@ header #nav ul li a:hover {
 #plan div .plan__example {
   margin: 0px;
   flex-direction: column;
-  width: 30%;
+  width: 33%;
   align-items: center;
 }
 #plan div .plan__example p {
@@ -12393,7 +12403,7 @@ header #nav ul li a:hover {
   margin: 0%;
   flex-direction: row;
   align-items: center;
-  width: 100%;
+  width: 72%;
   justify-content: center;
   height: 100%;
   position: relative;
@@ -12450,10 +12460,13 @@ header #nav ul li a:hover {
 /* FIN INDEX */
 /* ABOOUT US */
 #about {
+  display: flex;
+  justify-content: center;
   background-color: #f1efe8;
   padding: 3% 0% 15% 0%;
 }
 #about div {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -12463,7 +12476,7 @@ header #nav ul li a:hover {
 }
 #about div .about__title {
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   margin: 0px;
 }
 #about div .about__title h5, #about div .about__title .h5 {
@@ -12485,7 +12498,7 @@ header #nav ul li a:hover {
 }
 #about div .about__subtitle {
   margin: 0px;
-  width: 22%;
+  width: 27%;
 }
 #about div .about__subtitle h2, #about div .about__subtitle .h2 {
   width: 100%;
@@ -12496,7 +12509,7 @@ header #nav ul li a:hover {
 #about div .about__example {
   margin: 0px;
   flex-direction: column;
-  width: 30%;
+  width: 33%;
   align-items: center;
 }
 #about div .about__example p {
@@ -12551,6 +12564,7 @@ header #nav ul li a:hover {
 /* FIN ABOUT US */
 /* FORM */
 #contacto {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -12560,7 +12574,7 @@ header #nav ul li a:hover {
 }
 #contacto .contacto__title {
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   margin: 0px;
 }
 #contacto .contacto__title h5, #contacto .contacto__title .h5 {
@@ -12576,7 +12590,7 @@ header #nav ul li a:hover {
 }
 #contacto .contacto__subtitle {
   margin: 0px;
-  width: 22%;
+  width: 27%;
 }
 #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
   margin-bottom: 10%;
@@ -12594,7 +12608,7 @@ header #nav ul li a:hover {
 }
 #contacto .contacto__form {
   margin: 0px;
-  width: 30%;
+  width: 33%;
 }
 #contacto .contacto__form form label {
   display: block;
@@ -12667,10 +12681,13 @@ header #nav ul li a:hover {
 /* FON DEL FORM */
 /* SERVICES */
 #services {
+  display: flex;
+  justify-content: center;
   background-color: #f1efe8;
   padding: 3% 0% 15% 0%;
 }
 #services div {
+  width: 80%;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -12720,16 +12737,14 @@ header #nav ul li a:hover {
   font-size: 1.5rem;
 }
 
-#colcollapseExample0 {
-  display: none;
-}
-
 #detalle nav {
+  height: 100px;
   background-color: #ef3757;
   color: #fff;
 }
 #detalle nav ul {
-  height: 70px;
+  height: 100%;
+  min-height: 70px;
   align-content: center;
   font-size: 1.5rem;
 }
@@ -12744,7 +12759,7 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones div {
   display: flex;
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: stretch;
 }
 #detalle .detalle__opciones div img {
   width: 50%;
@@ -12772,6 +12787,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #fiscal div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #fiscal div .move .card-example .card-example-options {
   display: flex;
@@ -12817,6 +12836,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #contable div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #contable div .move .card-example .card-example-options {
   display: flex;
@@ -12862,6 +12885,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #laboral div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #laboral div .move .card-example .card-example-options {
   display: flex;
@@ -12870,7 +12897,7 @@ header #nav ul li a:hover {
   margin: 0px 0px 5px 0px;
 }
 #detalle .detalle__opciones #laboral div .move .card-example .card-example-options img {
-  width: 25px;
+  max-width: 25px;
   margin-right: 1rem;
 }
 #detalle .detalle__opciones #laboral div .move .card-example .card-example-options p {
@@ -12907,6 +12934,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #mercantil div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #mercantil div .move .card-example .card-example-options {
   display: flex;
@@ -12952,6 +12983,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #administrativa div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #administrativa div .move .card-example .card-example-options {
   display: flex;
@@ -12997,6 +13032,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #consultoria div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #consultoria div .move .card-example .card-example-options {
   display: flex;
@@ -13042,6 +13081,10 @@ header #nav ul li a:hover {
 #detalle .detalle__opciones #otros div .move .card-example {
   flex-direction: column;
   margin: 0px;
+  border: none;
+  position: relative !important;
+  inset: 0px auto auto 0px;
+  transform: translate3d(0px, 26px, 0px);
 }
 #detalle .detalle__opciones #otros div .move .card-example .card-example-options {
   display: flex;
@@ -13066,8 +13109,16 @@ header #nav ul li a:hover {
 }
 
 /* FIN DE SERVICES */
+/* MEDIA QUERIS */
+@media screen and (max-width: 1800px) and (min-width: 1350px) {
+  .detalle__opciones div img {
+    min-width: 60%;
+  }
+}
+/* FINAL DE MEDIA QUERIES */
 /* ACTUALIDAD */
 #actualidad {
+  width: 100%;
   background-color: #f1efe8;
   padding: 3% 0% 3% 0%;
   display: flex;
@@ -13123,6 +13174,7 @@ header #nav ul li a:hover {
 }
 
 #blog {
+  width: 100%;
   padding: 4% 0% 4% 0%;
   text-align: -webkit-center;
 }
@@ -13272,6 +13324,7 @@ header #nav ul li a:hover {
 
 /* FIN EXAMPLE BLOG */
 footer {
+  width: 100%;
   background-color: #000000;
   color: white;
   display: flex;
@@ -13350,6 +13403,13 @@ body {
   font-family: poppins;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown-toggle ::after {
+  color: #ef3757;
 }
 
 /*MEDIA QUERIES*/
@@ -13804,8 +13864,16 @@ body {
     font-size: 0.9rem;
   }
   #blog__img {
-    height: 200px;
+    height: 314px;
     margin-bottom: 15%;
+  }
+  #contact div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 2%;
+    justify-content: space-evenly;
   }
   footer .footer__marca div .footer__logo .footer__logo__info {
     font-size: 0.8rem;
@@ -14415,8 +14483,16 @@ body {
     margin: 0px 0px 60px 0px;
   }
   #blog__img {
-    height: 150px;
+    height: 290px;
     margin-bottom: 15%;
+  }
+  #contact div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 2%;
+    justify-content: space-evenly;
   }
   footer {
     display: flex;
@@ -15063,8 +15139,16 @@ body {
     margin: 0px 0px 60px 0px !important;
   }
   #blog__img {
-    height: 130px;
+    height: 200px;
     margin-bottom: 15%;
+  }
+  #contact div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 2%;
+    justify-content: space-evenly;
   }
   footer {
     display: flex;
@@ -15740,7 +15824,7 @@ body {
     margin: 0px 0px 60px 0px !important;
   }
   #blog__img {
-    height: 100px;
+    height: 200px;
     margin-bottom: 15%;
   }
   footer {

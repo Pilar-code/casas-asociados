@@ -1,9 +1,12 @@
 
 /* ABOOUT US */
 #about{
+    display: flex;
+    justify-content: center;
     background-color: #f1efe8;
     padding: 3% 0% 15% 0%;
     div{
+      width: 80%;
       display: flex;
       flex-wrap: nowrap;
       align-items: flex-start;
@@ -12,7 +15,7 @@
       justify-content: space-evenly;
       .about__title{
         flex-direction: column;
-        width: 25%;
+        width: 20%;
         margin: 0px;
         h5{
           font-size: 2rem;
@@ -34,7 +37,7 @@
       }
       .about__subtitle{
         margin: 0px;
-        width: 22%;
+        width: 27%;
         h2{
           width: 100%;
           font-size: 55px;
@@ -45,7 +48,7 @@
       .about__example{
         margin: 0px;
         flex-direction: column;
-        width: 30%;
+        width: 33%;
         align-items: center;
         p{
           font-size: 1.5rem;

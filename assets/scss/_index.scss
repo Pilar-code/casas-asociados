@@ -7,12 +7,14 @@
         .carousel-item{
           margin: none;
           p{
+            font-weight: 600;
+            line-height: 100%;
             font-size: 2.5rem;
             font-family: $fontMinion;
             position: absolute;
-            bottom: 44%;
-            left: 29%;
-            color: white;
+            bottom: 50%;
+            left: 28%;
+            color: $secondary-color;
             margin: 0px;
           }
         }
@@ -25,6 +27,7 @@
   }
   
   #servicios{
+    width: 80%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -32,7 +35,7 @@
     flex-direction: row;
     margin: 3% 2%;
     .servicios__title{
-        width: 25%;
+        width: 20%;
       h5{
         font-size: 2rem;
         font-weight: 800;
@@ -51,7 +54,7 @@
       }
     }
     .servicios__subtitle{
-      width: 22%;
+      width: 27%;
       h2{
         width: 100%;
         font-size: 55px;
@@ -60,7 +63,7 @@
       }
     }
     .servicios__example{
-      width: 30%;
+      width: 33%;
       p{
         font-size: 1.5rem;
       }
@@ -114,7 +117,11 @@
   #plan{
     background-color: #f1efe8;
     padding: 3% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     div{
+      width: 80%;
       display: flex;
       flex-wrap: nowrap;
       align-items: flex-start;
@@ -123,7 +130,7 @@
       justify-content: space-evenly;
       .plan__title{
         flex-direction: column;
-        width: 25%;
+        width: 20%;
         margin: 0px;
         h5{
           font-size: 2rem;
@@ -145,7 +152,7 @@
       }
       .plan__subtitle{
         margin: 0px;
-        width: 22%;
+        width: 27%;
         h2{
           width: 100%;
           font-size: 55px;
@@ -156,7 +163,7 @@
       .plan__example{
         margin: 0px;
         flex-direction: column;
-        width: 30%;
+        width: 33%;
         align-items: center;
         p{
           font-size: 1.5rem;
@@ -164,7 +171,7 @@
       }
     }
     .plan__points{
-          display: flex;
+      display: flex;
       flex-wrap: nowrap;
       flex-direction: column;
       align-items: center;
@@ -178,7 +185,7 @@
         margin: 0%;
         flex-direction: row;
         align-items: center;
-        width: 100%;
+        width: 72%;
         justify-content: center;
         height: 100%;
         position: relative;

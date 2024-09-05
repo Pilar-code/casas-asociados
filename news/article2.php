@@ -1,4 +1,8 @@
 <?php include('../includes/header__blogs.php'); ?>
+<section id="blog__img">   
+    <hr>
+    <img src="../img/captured-moments-impactful-business-realizations-strategic-implementations.jpg" alt="">
+</section>
 <section id="blog__example">
     <div>
         <div class="example__title">
@@ -63,7 +67,7 @@
                                 veriora voludestra tat C. Tum iam deto horei
                                 conem ficiocta, quam temove...
                             </p>
-                            <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="arrow" href="../news/article3.php" role="button">
                                 <img src="../img/icons8-flecha-50.png" alt="">
                                 ver mas..
                             </a>
@@ -82,7 +86,7 @@
                                 veriora voludestra tat C. Tum iam deto horei
                                 conem ficiocta, quam temove...
                             </p>
-                            <a class="collapsed arrow" data-bs-toggle="collapse" href="#collapseExample0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <a class="arrow" href="../news/article4.php" role="button">
                                 <img src="../img/icons8-flecha-50.png" alt="">
                                 ver mas..
                             </a>
