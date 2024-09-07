@@ -29,6 +29,7 @@
                     <a href=""><img width="23" height="23" src="../img/icons8-instagram-24.png" alt=""/></a>
                 </li>
             </ul>
+            <hr>
         </nav>
         <!-- NAV ALTERNATIVO PARA PANTALLAS MENORES -->
         <nav id="nav__blogs__small" class="navbar fixed-top">

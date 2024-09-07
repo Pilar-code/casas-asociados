@@ -1,6 +1,5 @@
 <?php include('../includes/header__blogs.php'); ?>
-<section id="blog__img">   
-    <hr>
+<section id="blog__img"> 
     <img src="../img/side-view-woman-wheelchair-work.jpg" alt="">
 </section>
 <section id="blog__example">

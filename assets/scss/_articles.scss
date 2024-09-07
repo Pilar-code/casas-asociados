@@ -1,6 +1,7 @@
 
 /* NAV */
 #header__blogs{
+  width: 100%;
   color: $primary-color;
   background-color: $background-color;
   padding: 10px 0;
@@ -8,8 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: auto;
   #nav__blogs{
+    margin-top: 3rem;
     ul {
       display: flex;
       align-items: center;
@@ -47,6 +48,16 @@
         }
       }
     }
+    hr{
+      box-shadow: none;
+      color: #000000;
+      width: 74%;
+      opacity: 100;
+      margin: 0%;
+      margin-left: auto;
+      margin-top: 1rem;
+      position: relative;
+    }
   }
   #nav__blogs__small{
     display:none
@@ -59,14 +70,7 @@
   background-color: $background-color;
   height: 500px;
   margin-bottom: 15%;
-  hr{
-    box-shadow: none;
-    color: $primary-color;
-    width: 100%;
-    padding-top: 1rem;
-    opacity: 100;
-    margin: 0px;
-  }
+  width: 100%;
   img{
     width: 60%;
     position: absolute;
@@ -75,6 +79,7 @@
   }
 }
 #contact{
+  width: 100%;
     background-color: $background-color;
     padding: 4% 0% 4% 0%;
     text-align: -webkit-center;

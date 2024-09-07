@@ -68,7 +68,7 @@ body {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1700px) and (min-width: 1350px) {
+@media screen and (max-width: 1700px) and (min-width: 1550px) {
   #carousel-large{
     #carouselExampleIndicators{
       .carousel-inner{
@@ -196,6 +196,362 @@ body {
     margin-bottom: 15%;
   }
 }
+@media screen and (max-width: 1500px) and (min-width: 1350){
+  #carousel-large{
+    #carouselExampleIndicators{
+      .carousel-inner{
+        .carousel-item{
+          p{
+            font-size: 2rem;
+            bottom: 40%;
+            left: 25%;
+          }
+        }
+      }
+    }
+  }
+    
+  #contacto{
+    margin: 3% 6%;
+    .contacto__title{
+      flex-direction: column;
+      width: 27%;
+      margin: 0px;
+      h5{
+        font-size: 1.5rem;
+      }
+    }
+    .contacto__subtitle{
+      margin: 0px;
+      width: 30%;
+      h2{
+        font-size: 44px;
+      }
+    }
+    .contacto__form{
+      width: 30%;
+      font-size: 1.2rem;
+    }
+  }
+
+  #quienes-somos{ 
+    .team {
+      .team__position{
+        .team-member{
+          width: 10rem;
+        }
+      }
+    }
+  }
+  #blog__img{
+    height: 350px;
+    margin-bottom: 15%;
+  }
+  
+  #servicios{
+    margin: 3% 6%;
+    .servicios__title{
+      width: 27%;
+      h5{
+        font-size: 1.5rem;
+      }
+    }
+    .servicios__subtitle{
+      width: 30%;
+      h2{
+        font-size: 44px;
+      }
+    }
+    .servicios__example{ 
+      width: 30%;
+      p{
+        font-size: 1.2rem;
+      }
+      .servicios__btn{
+        height: 55px;
+        width: 150px;
+        font-size: 1.2rem;
+      }
+    }
+    .servicios__points{ 
+      div{ 
+        ul{ 
+          li{
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+  #plan{
+    div{
+      margin: 3% 6%;
+      .plan__title{ 
+        width: 27%;
+        h5{
+          font-size: 1.5rem;
+        }
+      }
+      .plan__subtitle{ 
+        width: 30%;
+        h2{
+          font-size: 44px;
+        }
+      }
+      .plan__example{ 
+        width: 30%;
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .plan__points{
+      width: 100%;
+      div{
+        .plan__points__text{
+          h3{
+            font-size: 1.2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+        } 
+      } 
+    } 
+  }
+  #about{
+    div{
+      margin: 3% 6%;
+      .about__title{
+        width: 27%;
+        h5{
+          font-size: 1.5rem;
+        }
+      } 
+      .about__subtitle{
+        width: 30%;
+        .h2{
+          font-size: 44px;
+        }
+      } 
+      .about__example{
+        width: 30%;
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    } 
+  } 
+  #services{
+    div{
+      margin: 3% 6%;
+      .services__title{
+        width: 27%;
+        h5{
+          font-size: 1.5rem;
+        }
+      } 
+      .services__subtitle{
+        width: 30%;
+        h2{
+          font-size: 44px;
+        }
+      }
+      .services__example{
+        width: 30%;
+        p{
+          font-size: 1.2rem;
+        }
+      }
+    } 
+  } 
+  #detalle{
+    .detalle__opciones{
+      #fiscal{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #contable{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #laboral{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #mercantil{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #administrativa{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #consultoria{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #otros{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 1350px) and (min-width: 1030px) {
   #carousel-large{
@@ -253,7 +609,7 @@ body {
         margin: 0%;
         flex-direction: row;
         align-items: center;
-        width: 66%;
+        width: 45%;
         justify-content: center;
           .plan__points__box{
             margin: 1%;
@@ -274,6 +630,7 @@ body {
           width: 200px;
         }
         .plan__points__text{
+          width: 100%;
           padding: 4%;
           display: flex;
           flex-direction: column;
@@ -360,6 +717,193 @@ body {
   #blog__img{
     height: 350px;
     margin-bottom: 15%;
+  }
+  
+  #detalle{
+    .detalle__opciones{
+      #fiscal{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #contable{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #laboral{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #mercantil{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #administrativa{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #consultoria{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #otros{
+        div{
+          width: 300px;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -453,7 +997,7 @@ body {
         margin: 0%;
         flex-direction: row;
         align-items: center;
-        width: 70%;
+        width: 53%;
         justify-content: center;
           .plan__points__box{
             margin: 1%;
@@ -474,6 +1018,7 @@ body {
           width: 200px;
         }
         .plan__points__text{
+          width: 100%;
           padding: 4%;
           display: flex;
           flex-direction: column;
@@ -633,9 +1178,212 @@ body {
       font-size: 0.8rem;
     }
   }
+  #detalle{
+    nav{
+      height: 70px;
+      ul{
+        height: 100%;
+        font-size: 1rem;
+      }
+    }
+    .detalle__opciones{
+      #fiscal{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #contable{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #laboral{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #mercantil{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #administrativa{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #consultoria{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      #otros{
+        div{
+          width: 360px;
+          margin: 1rem 2rem;
+          h3{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .arrow{
+            font-size: 1rem;
+          }
+          .move{
+            .card-body{
+              font-size: 1rem;
+            }
+            .card-example{
+              .card-example-options{
+                p{
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 850px) and (min-width: 600px) {
+  header{
+    height: 80px;
+  }
   #nav {
     display: none;
   }
@@ -844,6 +1592,7 @@ body {
             margin: 1%;
             padding: 0%;
             height: 100%;
+            width: 75%;
           }
         div{
           display: flex;
@@ -859,6 +1608,7 @@ body {
           width: 200px;
         }
         .plan__points__text{
+          width: 100%;
           padding: 4%;
           display: flex;
           flex-direction: column;
@@ -984,9 +1734,15 @@ body {
   }
 
   #services{
+    display: flex;
+    justify-content: center;
+    background-color: #f1efe8;
+    padding: 3% 0% 15% 0%;
+    align-items: flex-start;
     div{
       flex-wrap: wrap;
       margin: 3% 6%;
+      height: 100%;
       .services__title{
         width: 100%;
         display: flex;
@@ -1023,7 +1779,7 @@ body {
       }
     }
   }
-  
+/*
 #detalle{
   nav{
     .sub__nav{
@@ -1260,6 +2016,226 @@ body {
       }
     }
   }
+} */
+
+#detalle{
+  nav{
+    height: 70px;
+    ul{
+      height: 100%;
+      font-size: 1rem;
+    }
+  }
+  .detalle__opciones{
+    div{
+      img{
+        width: 100%;
+      }
+    }
+    #fiscal{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #contable{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #laboral{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mercantil{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #administrativa{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #consultoria{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #otros{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 #actualidad{
@@ -1385,6 +2361,9 @@ body {
 }
 
 @media screen and (max-width: 600px) and (min-width: 400px) {
+    header{
+      height: 65px;
+    }
     #nav {
       display: none;
     }
@@ -1740,6 +2719,7 @@ body {
     }
 
     #services{
+      align-items: flex-start;
       div{
         flex-wrap: wrap;
         margin: 3% 6%;
@@ -2031,6 +3011,232 @@ body {
     }
 
     
+#detalle{
+  nav{
+    height: 100%;
+    ul{
+      height: 100%;
+      font-size: 1rem;
+    }
+  }
+  .detalle__opciones{
+    div{
+      img{
+        width: 100%;
+      }
+    }
+    #fiscal{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #contable{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+            text-align: end;
+            margin: 1rem 0rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #laboral{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mercantil{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+            text-align: end;
+            margin: 1rem 0rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #administrativa{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #consultoria{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+            text-align: end;
+            margin: 1rem 0rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #otros{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 2rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+        .arrow{
+          font-size: 1rem;
+        }
+        .move{
+          .card-body{
+            font-size: 1rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+    
     #actualidad{
       flex-wrap: wrap;
       padding: 3% 6%;
@@ -2156,6 +3362,9 @@ body {
 }
 
 @media screen and (max-width: 400px) and (min-width: 300px) {
+  header{
+    height: 65px;
+  }
   #nav {
     display: none;
   }
@@ -2528,6 +3737,7 @@ body {
   }
 
   #services{
+    align-items: flex-start;
     div{
       flex-wrap: wrap;
       margin: 3% 6%;
@@ -2828,6 +4038,226 @@ body {
     }
   }
 
+  
+#detalle{
+  nav{
+    height: 70px;
+    ul{
+      height: 100%;
+      font-size: 1rem;
+    }
+  }
+  .detalle__opciones{
+    div{
+      img{
+        width: 100%;
+      }
+    }
+    #fiscal{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.6rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #contable{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #laboral{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size:0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mercantil{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #administrativa{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #consultoria{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-end;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    #otros{
+      flex-direction: column;
+      div{
+        width: 90%;
+        margin: 1rem 2rem;
+        align-items: flex-start;
+        h3{
+          font-size: 1.3rem;
+        }
+        p{
+          font-size: 0.8rem;
+        }
+        .arrow{
+          font-size: 0.8rem;
+        }
+        .move{
+          .card-body{
+            font-size: 0.8rem;
+          }
+          .card-example{
+            .card-example-options{
+              p{
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
   
   #actualidad{
     flex-wrap: wrap;

@@ -65,10 +65,10 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
-                        <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
+                        <ul class="dropdown-menu move card-example" style="position: relative; border: none; transform: none;">
                                 <div class="card-body">
                                     Las obligaciones fiscales
                                     <br>de manera eficiente y segura, cumpliendo con
@@ -153,7 +153,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
@@ -220,7 +220,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
@@ -343,7 +343,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
@@ -424,7 +424,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
@@ -475,7 +475,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-auto-close="false" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">
@@ -539,7 +539,7 @@
                                 </li>
                                 <li class="dropdown-item card-example-options">
                                     <div class="dropdown move">
-                                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >   
+                                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >   
                                             <img  width="25" height="25" src="../img/icons8-done-50.png" alt="">
                                             Económica-financiera
                                         </a>
@@ -565,7 +565,7 @@
                                 </li>
                                 <li class="dropdown-item card-example-options">
                                 <div class="dropdown move">
-                                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >   
+                                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >   
                                             <img  width="25" height="25" src="../img/icons8-done-50.png" alt="">
                                             Corporate pymes
                                         </a>
@@ -604,7 +604,7 @@
                         Nos encargamos de…
                     </p>
                     <div class="dropdown move">
-                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" href="#collapseExample0" role="button" aria-expanded="false" >
+                        <a class="dropdown-toggle arrow" data-bs-toggle="dropdown" type="button" role="button" aria-expanded="false" >
                             ver mas..
                         </a>
                         <ul class="dropdown-menu move card-example" style="position: relative; border: none;">

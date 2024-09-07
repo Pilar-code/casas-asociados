@@ -80,7 +80,7 @@
       div{
         display: flex;
         flex-wrap: nowrap;
-        align-items: stretch;
+        align-items: flex-start;
         img{
           width: 50%;
         }
@@ -88,10 +88,14 @@
       #fiscal{
         flex-direction: row;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -108,18 +112,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -137,10 +142,14 @@
       #contable{
         flex-direction: row-reverse;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -157,18 +166,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -186,10 +196,14 @@
       #laboral{
         flex-direction: row;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -206,18 +220,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   max-width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -235,10 +250,14 @@
       #mercantil{
         flex-direction: row-reverse;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -255,18 +274,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -284,10 +304,14 @@
       #administrativa{
         flex-direction: row;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -304,18 +328,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -333,10 +358,14 @@
       #consultoria{
         flex-direction: row-reverse;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -344,6 +373,9 @@
           .move{
             margin: 0px;
             flex-direction: column;
+            :active{
+              color: transparent;
+            }
             .card-body{
               margin: 0px;
             }
@@ -353,18 +385,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -382,10 +415,14 @@
       #otros{
         flex-direction: row;
         div{
-          margin: 2rem 4rem;
+          width: 550px;
+          margin: 2rem 6rem;
           flex-direction: column;
+          font-size: 1.5rem;
           h3{
-            font-size: 3rem;
+            font-size: 3.5rem;
+            font-family: $fontLight;
+            font-palette: dark;
           }
           p{
             font-size: 1.5rem;
@@ -402,18 +439,19 @@
               border: none;
               position: relative !important;
               inset: 0px auto auto 0px;
-              transform: translate3d(0px, 26px, 0px);
+              transform: none !important;
               .card-example-options{
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 margin: 0px 0px 5px 0px;
+                --bs-dropdown-link-active-bg: transparent;
                 img{
                   width: 25px;
                   margin-right: 1rem;
                 }
                 p{
-                  font-size: 1rem;
+                  font-size: 1.5rem;
                   margin: 0px;
                 }
               }
@@ -433,14 +471,42 @@
   /* FIN DE SERVICES */
 
 /* MEDIA QUERIS */
-@media screen and (max-width: 1800px) and (min-width: 1350px) {
-  .detalle__opciones{
+@media screen and (max-width: 1300px) and (min-width: 100px) {
+  #fiscal{
     div{
-      img{
-        min-width: 60%;
-      }
+      width: 100px;
     }
-}
+  }
+  #contable{
+    div{
+      width: 100px;
+    }
+  }
+  #laboral{
+    div{
+      width: 100px;
+    }
+  }
+  #mercantil{
+    div{
+      width: 100px;
+    }
+  }
+  #administrativa{
+    div{
+      width: 100px;
+    }
+  }
+  #consultoria{
+    div{
+      width: 100px;
+    }
+  }
+  #otros{
+    div{
+      width: 100px;
+    }
+  }
 }
 
 /* FINAL DE MEDIA QUERIES */
