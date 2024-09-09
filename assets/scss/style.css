@@ -12471,6 +12471,7 @@ header #nav ul li a:hover {
   justify-content: center;
   background-color: #f1efe8;
   padding: 3% 0% 15% 0%;
+  align-items: flex-start;
 }
 #about div {
   width: 80%;
@@ -13476,7 +13477,7 @@ body {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 1700px) and (min-width: 1550px) {
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
   #carousel-large #carouselExampleIndicators .carousel-inner .carousel-item p {
     font-size: 2rem;
     bottom: 40%;
@@ -13574,46 +13575,136 @@ body {
     margin-bottom: 15%;
   }
 }
-@media screen and (max-width: 1500px) and (min-width: 1350) {
+@media screen and (max-width: 1500px) and (min-width: 1350px) {
+  /*   #carousel-large{
+      #carouselExampleIndicators{
+        .carousel-inner{
+          .carousel-item{
+            p{
+              font-size: 2rem;
+              bottom: 40%;
+              left: 25%;
+            }
+          }
+        }
+      }
+    }
+
+    #contacto{
+      margin: 3% 6%;
+      .contacto__title{
+        flex-direction: column;
+        width: 27%;
+        margin: 0px;
+        h5{
+          font-size: 1.5rem;
+        }
+      }
+      .contacto__subtitle{
+        margin: 0px;
+        width: 30%;
+        h2{
+          font-size: 44px;
+        }
+      }
+      .contacto__form{
+        width: 30%;
+        font-size: 1.2rem;
+      }
+    }
+
+    #quienes-somos{ 
+      .team {
+        .team__position{
+          .team-member{
+            width: 10rem;
+          }
+        }
+      }
+    }
+    #blog__img{
+      height: 350px;
+      margin-bottom: 15%;
+    }
+
+    #servicios{
+      margin: 3% 6%;
+      .servicios__title{
+        width: 27%;
+        h5{
+          font-size: 1.5rem;
+        }
+      }
+      .servicios__subtitle{
+        width: 30%;
+        h2{
+          font-size: 44px;
+        }
+      }
+      .servicios__example{ 
+        width: 30%;
+        p{
+          font-size: 1.2rem;
+        }
+        .servicios__btn{
+          height: 55px;
+          width: 150px;
+          font-size: 1.2rem;
+        }
+      }
+      .servicios__points{ 
+        div{ 
+          ul{ 
+            li{
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+    #plan{
+      div{
+        margin: 3% 6%;
+        .plan__title{ 
+          width: 27%;
+          h5{
+            font-size: 1.5rem;
+          }
+        }
+        .plan__subtitle{ 
+          width: 30%;
+          h2{
+            font-size: 44px;
+          }
+        }
+        .plan__example{ 
+          width: 30%;
+          p{
+            font-size: 1.2rem;
+          }
+        }
+      }
+      .plan__points{
+        width: 100%;
+        div{
+          .plan__points__text{
+            h3{
+              font-size: 1.2rem;
+            }
+            p{
+              font-size: 1rem;
+            }
+          } 
+        } 
+      } 
+    } */
   #carousel-large #carouselExampleIndicators .carousel-inner .carousel-item p {
     font-size: 2rem;
     bottom: 40%;
     left: 25%;
   }
-  #contacto {
-    margin: 3% 6%;
-  }
-  #contacto .contacto__title {
-    flex-direction: column;
-    width: 27%;
-    margin: 0px;
-  }
-  #contacto .contacto__title h5, #contacto .contacto__title .h5 {
-    font-size: 1.5rem;
-  }
-  #contacto .contacto__subtitle {
-    margin: 0px;
-    width: 30%;
-  }
-  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
-    font-size: 44px;
-  }
-  #contacto .contacto__form {
-    width: 30%;
-    font-size: 1.2rem;
-  }
-  #quienes-somos .team .team__position .team-member {
-    width: 10rem;
-  }
-  #blog__img {
-    height: 350px;
-    margin-bottom: 15%;
-  }
-  #servicios {
-    margin: 3% 6%;
-  }
   #servicios .servicios__title {
-    width: 27%;
+    width: 25%;
   }
   #servicios .servicios__title h5, #servicios .servicios__title .h5 {
     font-size: 1.5rem;
@@ -13630,19 +13721,19 @@ body {
   #servicios .servicios__example p {
     font-size: 1.2rem;
   }
-  #servicios .servicios__example .servicios__btn {
-    height: 55px;
-    width: 150px;
-    font-size: 1.2rem;
+  #servicios .servicios__example .servicios__points {
+    font-size: 1rem;
   }
-  #servicios .servicios__points div ul li {
-    font-size: 1.2rem;
+  #servicios .servicios__example button {
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
   }
   #plan div {
     margin: 3% 6%;
   }
   #plan div .plan__title {
-    width: 27%;
+    width: 25%;
   }
   #plan div .plan__title h5, #plan div .plan__title .h5 {
     font-size: 1.5rem;
@@ -13651,22 +13742,80 @@ body {
     width: 30%;
   }
   #plan div .plan__subtitle h2, #plan div .plan__subtitle .h2 {
-    font-size: 44px;
+    font-size: 45px;
   }
   #plan div .plan__example {
     width: 30%;
   }
   #plan div .plan__example p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #plan .plan__points {
     width: 100%;
   }
   #plan .plan__points div .plan__points__text h3, #plan .plan__points div .plan__points__text .h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #plan .plan__points div .plan__points__text p {
+    font-size: 0.8rem;
+  }
+  #contacto {
+    margin: 3% 6%;
+  }
+  #contacto .contacto__title {
+    flex-direction: column;
+    width: 27%;
+    margin: 0px;
+  }
+  #contacto .contacto__subtitle {
+    margin: 0px;
+    width: 30%;
+  }
+  #contacto .contacto__subtitle h2, #contacto .contacto__subtitle .h2 {
+    font-size: 50px;
+  }
+  #contacto .contacto__form {
+    width: 30%;
+  }
+  #about div {
+    margin: 3% 6%;
+  }
+  #about div .about__title {
+    width: 27%;
+  }
+  #about div .about__subtitle {
+    width: 30%;
+  }
+  #about div .about__example {
+    width: 30%;
+  }
+  #services div {
+    margin: 3% 6%;
+  }
+  #services div .services__title {
+    width: 25%;
+  }
+  #services div .services__title h5, #services div .services__title .h5 {
+    font-size: 1.5rem;
+  }
+  #services div .services__subtitle {
+    width: 30%;
+  }
+  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
+    font-size: 45px;
+  }
+  #services div .services__example {
+    width: 30%;
+  }
+  #services div .services__example p {
     font-size: 1rem;
+  }
+  #quienes-somos .team .team__position .team-member {
+    width: 10rem;
+  }
+  #blog__img {
+    height: 350px;
+    margin-bottom: 15%;
   }
   #about div {
     margin: 3% 6%;
@@ -13687,27 +13836,6 @@ body {
     width: 30%;
   }
   #about div .about__example p {
-    font-size: 1.2rem;
-  }
-  #services div {
-    margin: 3% 6%;
-  }
-  #services div .services__title {
-    width: 27%;
-  }
-  #services div .services__title h5, #services div .services__title .h5 {
-    font-size: 1.5rem;
-  }
-  #services div .services__subtitle {
-    width: 30%;
-  }
-  #services div .services__subtitle h2, #services div .services__subtitle .h2 {
-    font-size: 44px;
-  }
-  #services div .services__example {
-    width: 30%;
-  }
-  #services div .services__example p {
     font-size: 1.2rem;
   }
   #detalle .detalle__opciones #fiscal div {
@@ -14542,22 +14670,22 @@ body {
     font-size: small;
     margin-bottom: 25px;
   }
-  #carousel-large {
-    display: none;
-  }
   #carousel-small {
     display: block;
   }
-  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item {
+  #carousel-small #carouselExampleIndicators1 .carousel-inner .carousel-item {
     margin: 0%;
   }
-  #carousel-small #carouselExampleIndicators .carousel-inner .carousel-item p {
+  #carousel-small #carouselExampleIndicators1 .carousel-inner .carousel-item p {
     font-size: 2rem;
     position: absolute;
-    bottom: 76%;
-    left: 11%;
+    bottom: 77%;
+    left: 18%;
     color: white;
     margin: 0px;
+  }
+  #carousel-large {
+    display: none;
   }
   #servicios {
     display: flex;

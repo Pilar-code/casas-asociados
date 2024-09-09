@@ -68,7 +68,7 @@ body {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 1700px) and (min-width: 1550px) {
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
   #carousel-large{
     #carouselExampleIndicators{
       .carousel-inner{
@@ -196,8 +196,9 @@ body {
     margin-bottom: 15%;
   }
 }
-@media screen and (max-width: 1500px) and (min-width: 1350){
-  #carousel-large{
+
+@media screen and (max-width: 1500px) and (min-width: 1350px) {
+/*   #carousel-large{
     #carouselExampleIndicators{
       .carousel-inner{
         .carousel-item{
@@ -318,7 +319,158 @@ body {
         } 
       } 
     } 
+  } */
+
+  #carousel-large{
+    #carouselExampleIndicators{
+      .carousel-inner{
+        .carousel-item{
+          p{
+            font-size: 2rem;
+            bottom: 40%;
+            left: 25%;
+          }
+        }
+      }
+    }
   }
+  #servicios{
+      .servicios__title{
+        width: 25%;
+        h5{
+          font-size: 1.5rem;
+        }
+      } 
+      .servicios__subtitle{
+        width: 30%;
+        h2{
+          font-size: 44px;
+        }
+      }
+      .servicios__example{
+        width: 30%;
+        p{
+          font-size: 1.2rem;
+        }
+        .servicios__points{
+          font-size: 1rem;
+        }
+        button{
+          width: 150px;
+          height: 50px;
+          font-size: 1rem;
+        }
+      }
+  } 
+    
+  #plan{
+    div{
+      margin: 3% 6%;
+      .plan__title{
+        width: 25%;
+        h5{
+          font-size: 1.5rem;
+        }
+      }
+      .plan__subtitle{
+        width: 30%;
+        h2{
+          font-size: 45px;
+        }
+      }
+      .plan__example{
+        width: 30%;
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+    
+    .plan__points{
+      width: 100%;
+      div{
+        .plan__points__text{
+          h3{
+            font-size: 1rem;
+          }
+          p{
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+  
+  #contacto{
+    margin: 3% 6%;
+    .contacto__title{
+      flex-direction: column;
+      width: 27%;
+      margin: 0px;
+    }
+    .contacto__subtitle{
+      margin: 0px;
+      width: 30%;
+      h2{
+        font-size: 50px;
+      }
+    }
+    .contacto__form{
+      width: 30%;
+    }
+  }
+
+  #about{
+    div{
+      margin: 3% 6%;
+      .about__title{
+        width: 27%;
+      }
+      .about__subtitle{
+        width: 30%;
+      }
+      .about__example{
+        width: 30%;
+      }
+    }
+  }
+  #services{
+    div{
+      margin: 3% 6%;
+      .services__title{
+        width: 25%;
+        h5{
+          font-size: 1.5rem;
+        }
+      }
+      .services__subtitle{
+        width: 30%;
+        h2{
+          font-size: 45px;
+        }
+      }
+      .services__example{
+        width: 30%;
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  #quienes-somos{ 
+    .team {
+      .team__position{
+        .team-member{
+          width: 10rem;
+        }
+      }
+    }
+  }
+  #blog__img{
+    height: 350px;
+    margin-bottom: 15%;
+  }
+
   #about{
     div{
       margin: 3% 6%;
@@ -341,30 +493,7 @@ body {
         }
       }
     } 
-  } 
-  #services{
-    div{
-      margin: 3% 6%;
-      .services__title{
-        width: 27%;
-        h5{
-          font-size: 1.5rem;
-        }
-      } 
-      .services__subtitle{
-        width: 30%;
-        h2{
-          font-size: 44px;
-        }
-      }
-      .services__example{
-        width: 30%;
-        p{
-          font-size: 1.2rem;
-        }
-      }
-    } 
-  } 
+  }
   #detalle{
     .detalle__opciones{
       #fiscal{
@@ -1461,29 +1590,29 @@ body {
         }
     }
   }
-
-#carousel-large{
-  display:none;
-}
-  
-#carousel-small{
-  display: block;
-  #carouselExampleIndicators{
-    .carousel-inner{
-      .carousel-item{
-        margin: 0%;
-        p{
-          font-size: 2rem;
-          position: absolute;
-          bottom: 76%;
-          left: 11%;
-          color: white;
-          margin: 0px;
+ 
+  #carousel-small{
+    display: block;
+    #carouselExampleIndicators1{
+      .carousel-inner{
+        .carousel-item{
+          margin: 0%;
+          p{    
+            font-size: 2rem;
+            position: absolute;
+            bottom: 77%;
+            left: 18%;
+            color: white;
+            margin: 0px;
+          }
         }
       }
     }
   }
-}
+  
+  #carousel-large{
+    display:none;
+  }
 
 
   #servicios{
