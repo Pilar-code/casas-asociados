@@ -100,6 +100,14 @@
             width: 1.5rem;
           }
         }
+        .noneShow{
+          display: none;
+        }
+        .show{
+          display: block !important;
+          position: relative !important;
+          transform: none !important;
+        }
       }
       .blog__subtitle{
         margin: 0px;

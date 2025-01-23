@@ -13285,6 +13285,14 @@ header #nav ul li a:hover {
 #blog div .blog__title a img {
   width: 1.5rem;
 }
+#blog div .blog__title .noneShow {
+  display: none;
+}
+#blog div .blog__title .show {
+  display: block !important;
+  position: relative !important;
+  transform: none !important;
+}
 #blog div .blog__subtitle {
   margin: 0px;
   width: 70%;

@@ -55,7 +55,7 @@
             </div>
             <div class="contact__subtitle">
                 <div class="card" style="width: 24rem;">
-                    <img src="../img/side-view-woman-wheelchair-work.jpg" class="card-img-top" alt="...">
+                    <img src="../img/side-view-woman-wheelchair-work.jpg" class="card-img-top" style="height: 215px; width: auto;" alt="...">
                     <div class="card-body">
                         <h6>LABORAL</h6>
                         <hr>
